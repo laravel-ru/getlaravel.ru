@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
-    <title>{{ isset($title) ? $title . ' - ' : null }}Laravel - The PHP Framework For Web Artisans</title>
+    <title>{{ isset($title) ? $title . ' - ' : null }}Laravel - PHP-фреймворк для веб-мастеров</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
     @if (isset($canonical))
@@ -30,8 +30,22 @@
     <!-- Load JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
+    <!-- Analytics -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NCP6DLH');</script>
+    <!-- End Google Tag Manager -->
+
 </head>
 <body class="language-php">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCP6DLH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 @yield('content')
 
@@ -40,13 +54,13 @@
         <div class="contain">
             <section class="partner_block">
                 <div class="content">
-                    <h2>Become a Laravel Partner</h2>
-                    <p>Laravel Partners are elite shops providing top-notch Laravel development and consulting. Each of our partners can help you craft a beautiful, well-architected project.</p>
+                    <h2>Станьте партнером Laravel</h2>
+                    <p>Партнеры Laravel - это элитные магазины, предлагающие первоклассную разработку и консультирование на Laravel. Каждый из наших партнеров может помочь Вам создать красивый, хорошо продуманный проект.</p>
                 </div>
                 @if(request()->is('partners'))
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOTE1G6zxSPbKdmQ59UKkL_Rja_ddAyG6Y6xxGdSGAWlNTFA/viewform?usp=sf_link" class="btn"><span>Become A Partner</span></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOTE1G6zxSPbKdmQ59UKkL_Rja_ddAyG6Y6xxGdSGAWlNTFA/viewform?usp=sf_link" class="btn"><span>Стать партнером</span></a>
                 @else
-                <a href="/partners" class="btn"><span>Our Partners</span></a>
+                <a href="/partners" class="btn"><span>Наши партнеры</span></a>
                 @endif
             </section>
         </div>
@@ -64,34 +78,34 @@
                 <div class="footer_content">
                     <div class="footer_nav">
                         <div class="nav_col">
-                            <span class="footer_nav_trigger">Highlights</span>
+                            <span class="footer_nav_trigger">Основные моменты</span>
                             <div class="footer_nav_contain">
                                 <ul>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/releases">Release Notes</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/installation">Getting Started</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/routing">Routing</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/blade">Blade Templates</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/authentication">Authentication</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/authorization">Authorization</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/artisan">Artisan Console</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/database">Database</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/releases">Примечания к выпуску</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/installation">Начало работы</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/routing">Маршрутизация</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/blade">Шаблоны Blade</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/authentication">Аутентификация</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/authorization">Авторизация</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/artisan">Консоль Artisan</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/database">База данных</a></li>
                                     <li><a href="/docs/{{DEFAULT_VERSION}}/eloquent">Eloquent ORM</a></li>
-                                    <li><a href="/docs/{{DEFAULT_VERSION}}/testing">Testing</a></li>
+                                    <li><a href="/docs/{{DEFAULT_VERSION}}/testing">Тестирование</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="nav_col">
-                            <span class="footer_nav_trigger">Resources</span>
+                            <span class="footer_nav_trigger">Ресурсы</span>
                             <div class="footer_nav_contain">
                                 <ul>
                                     <li><a href="https://laracasts.com">Laracasts</a></li>
-                                    <li><a href="https://laravel-news.com">Laravel News</a></li>
+                                    <li><a href="https://laravel-news.com">Новости Laravel</a></li>
                                     <li><a href="https://laracon.us">Laracon</a></li>
                                     <li><a href="https://laracon.eu/">Laracon EU</a></li>
                                     <li><a href="https://laracon.com.au/">Laracon AU</a></li>
-                                    <li><a href="https://larajobs.com">Jobs</a></li>
-                                    <li><a href="https://certification.laravel.com/">Certification</a></li>
-                                    <li><a href="https://laracasts.com/discuss">Forums</a></li>
+                                    <li><a href="https://larajobs.com">Вакансии</a></li>
+                                    <li><a href="https://certification.laravel.com/">Сертификация</a></li>
+                                    <li><a href="https://laracasts.com/discuss">Форумы</a></li>
                                     <!-- <li><a href="http://www.laravelpodcast.com/">Podcast</a></li> -->
                                     <!-- <li><a href="https://course.testdrivenlaravel.com/">Test-driven Laravel</a></li> -->
                                     <!-- <li><a href="https://statamic.com/">Statamic</a></li> -->
@@ -101,7 +115,7 @@
                             </div>
                         </div>
                         <div class="nav_col">
-                            <span class="footer_nav_trigger">Partners</span>
+                            <span class="footer_nav_trigger">Партнеры</span>
                             <div class="footer_nav_contain">
                                 <ul>
                                     <li><a href="https://vehikl.com">Vehikl</a></li>
@@ -117,12 +131,12 @@
                                     <li><a href="https://www.a2design.biz/">A2 Design</a></li>
                                     <li><a href="https://romegadigital.com/">Romega Software</a></li>
                                     <li><a href="https://jump24.co.uk/">Jump24</a></li>
-                                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOTE1G6zxSPbKdmQ59UKkL_Rja_ddAyG6Y6xxGdSGAWlNTFA/viewform">Become A Partner</a></li>
+                                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOTE1G6zxSPbKdmQ59UKkL_Rja_ddAyG6Y6xxGdSGAWlNTFA/viewform">Стать партнером</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="nav_col">
-                            <span class="footer_nav_trigger">Ecosystem</span>
+                            <span class="footer_nav_trigger">Экосистема</span>
                             <div class="footer_nav_contain">
                                 <ul>
                                     <li><a href="https://vapor.laravel.com">Vapor</a></li>
@@ -147,8 +161,8 @@
                         </div>
                     </div>
                     <div class="footer_info">
-                        <p class="small">Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.</p>
-                        <p class="small copyright">Laravel is a Trademark of Taylor Otwell.<br>Copyright &copy; 2011-{{now()->format('Y')}} Laravel LLC.
+                        <p class="small">Laravel - это фреймворк для веб-приложений с выразительным элегантным синтаксисом. Мы считаем, что разработка должна быть приятной и творческой, чтобы приносить истинное удовлетворение. Laravel пытается облегчить разработку, упростив общие задачи, используемые в большинстве веб-проектов.</p>
+                        <p class="small copyright">Laravel - торговая марка Taylor Otwell.<br>Авторские права &copy; 2011-{{now()->format('Y')}} Laravel LLC.
                         </p>
                         <ul class="social_links">
                             <li><a href="https://twitter.com/laravelphp"><img src="/img/social/twitter.min.svg" alt="Twitter"></a>
@@ -176,13 +190,5 @@
 
 <script src="{{ mix('js/app.js') }}"></script>
 
-<script>
-    var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
-    (function(d,t){
-        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)
-    }(document,'script'));
-</script>
 </body>
 </html>

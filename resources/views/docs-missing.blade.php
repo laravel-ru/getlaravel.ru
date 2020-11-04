@@ -1,9 +1,9 @@
-<h1>Page not found.</h1>
+<h1>Страница не найдена.</h1>
 
 @if($otherVersions->isEmpty())
-    <p>Nothing to see here.</p>
+    <p>Здесь ничего нет.</p>
 @else
-    <p>This page does not exist for this version of Laravel but was found in other versions.</p>
+    <p>Эта страница не существует для этой версии Laravel, но была найдена в других версиях.</p>
 
     <div class="content-list">
         <ul>

@@ -15,11 +15,11 @@
                             </video>
                         </div>
                         <div class="hero_content">
-                            <h1>Making the web a better place with Laravel</h1>
-                            <p>Laravel Partners are elite shops providing top-notch Laravel development and consulting. Each of our partners can help you craft a beautiful, well-architected project.</p>
+                            <h1>Делаем веб лучше с Laravel</h1>
+                            <p>Партнеры Laravel - это элитные магазины, предлагающие первоклассную разработку и консультирование на Laravel. Каждый из наших партнеров может помочь Вам создать красивый, хорошо продуманный проект.</p>
                         </div>
                         <div class="hero_btn">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOTE1G6zxSPbKdmQ59UKkL_Rja_ddAyG6Y6xxGdSGAWlNTFA/viewform?usp=sf_link" class="btn"><span>Become A Partner</span></a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOTE1G6zxSPbKdmQ59UKkL_Rja_ddAyG6Y6xxGdSGAWlNTFA/viewform?usp=sf_link" class="btn"><span>Стать партнером</span></a>
                         </div>
                     </section>
                 </div>
@@ -30,35 +30,35 @@
                             @if($featured == 'tighten')
                                 <img class="featured_img" src="/img/partners/img_tighten_detail.jpeg" alt="Tighten" style="right: 48%;">
                                 <div class="featured_content">
-                                    <h6>Featured Partner</h6>
+                                    <h6>Избранный Партнер</h6>
                                     <img class="logo" src="/img/partners/tighten.min.svg" alt="Tighten">
-                                    <p>Tighten is a team of Laravel community leaders, web development industry veterans, and multi-disciplinary creators. We’ve built, rescued, refactored, and supported a huge number of Laravel applications since Laravel’s earliest days. Whatever your challenge, we have the experience and knowledge to help.</p>
-                                    <a href="/partner/tighten" class="learn_more">More about Tighten <span>→</span></a>
+                                    <p>Tighten - это команда лидеров сообщества Laravel, ветеранов индустрии веб-разработки и междисциплинарных создателей. Мы создали, спасли, реорганизовали и поддержали огромное количество приложений Laravel с первых дней существования Laravel. Какой бы ни была Ваша задача, у нас есть опыт и знания, чтобы помочь.</p>
+                                    <a href="/partner/tighten" class="learn_more">Больше о Tighten <span>→</span></a>
                                 </div>
                             @elseif($featured == 'vehikl')
                                 <img class="featured_img" src="/img/partners/img_vehikl.jpg" alt="Vehikl">
                                 <div class="featured_content">
-                                    <h6>Featured Partner</h6>
+                                    <h6>Избранный Партнер</h6>
                                     <img class="logo" src="/img/partners/vehikl.min.svg" alt="Vehikl">
-                                    <p>Vehikl is a team of code-crushing Laravel experts. Over the years we have built a variety of web applications for customers using Laravel as our framework of choice and implemented Lean Agile development techniques to build professional applications that are functional and easy to use.</p>
-                                    <a href="/partner/vehikl" class="learn_more">More about Vehikl <span>→</span></a>
+                                    <p>Vehikl - это команда экспертов Laravel по разбору кода. На протяжении многих лет мы создали множество веб-приложений для клиентов, используя Laravel в качестве предпочтительной среды, и внедрили методы разработки Lean Agile для создания профессиональных приложений, которые функциональны и просты в использовании.</p>
+                                    <a href="/partner/vehikl" class="learn_more">Больше о Vehikl <span>→</span></a>
                                 </div>
                             @elseif($featured == 'devsquad')
                                 <img class="featured_img" src="/img/partners/img_devsquad_detail.jpg" alt="DevSquad" style="right: 53%;">
                                 <div class="featured_content">
-                                    <h6>Featured Partner</h6>
+                                    <h6>Избранный Партнер</h6>
                                     <img class="logo" src="/img/partners/devsquad.png" alt="DevSquad" style="max-width: 200px;">
-                                    <p>DevSquad team members have unique and diverse skills, and this cross-functionality lets us successfully complete any mission.</p>
-                                    <a href="/partner/dev-squad" class="learn_more">More about DevSquad
+                                    <p>Члены команды DevSquad обладают уникальными и разнообразными навыками, и эта кросс-функциональность позволяет нам успешно выполнять любую миссию.</p>
+                                    <a href="/partner/dev-squad" class="learn_more">Больше о DevSquad
                                         <span>→</span></a>
                                 </div>
                             @elseif($featured == '64robots')
                                 <img class="featured_img" src="/img/partners/img_64robots_detail.jpg" alt="64Robots" style="right: 40%;">
                                 <div class="featured_content">
-                                    <h6>Featured Partner</h6>
+                                    <h6>Избранный Партнер</h6>
                                     <img class="logo" src="/img/partners/64Robots.min.svg" alt="DevSquad" style="max-width: 200px;">
-                                    <p>64 Robots is a team of Laravel experts brought together by a desire to create cutting edge web products. Whether building something new or refactoring a product in need of help, we'll give you a personal and thoughtful approach to development.</p>
-                                    <a href="/partner/64robots" class="learn_more">More about 64 Robots
+                                    <p>64 Robots - это команда экспертов Laravel, объединенных стремлением создавать передовые веб-продукты. Независимо от того, создаете ли Вы что-то новое или проводите рефакторинг продукта, нуждающегося в помощи, мы предоставим Вам индивидуальный и продуманный подход к разработке.</p>
+                                    <a href="/partner/64robots" class="learn_more">Больше о 64 Robots
                                         <span>→</span></a>
                                 </div>
                             @endif
@@ -81,29 +81,29 @@
                                             <div class="logo_contain">
                                                 <img src="/img/partners/tighten.min.svg" alt="Tighten">
                                             </div>
-                                            <p class="small">Their team of top-notch Laravel developers will build your product, help you take it to market, and iterate with you as things change.</p>
-                                            <a href="/partner/tighten" class="learn_more">More about Tighten
+                                            <p class="small">Их команда первоклассных разработчиков Laravel создаст Ваш продукт, поможет вывести его на рынок и будет работать вместе с Вами по мере изменения ситуации.</p>
+                                            <a href="/partner/tighten" class="learn_more">Больше о Tighten
                                                 <span>→</span></a>
                                         @elseif($otherPartner == 'vehikl')
                                             <div class="logo_contain">
                                                 <img src="/img/partners/vehikl.min.svg" alt="Vehikl">
                                             </div>
-                                            <p class="small">A team of code-crushing Laravel experts. Over the years we have built a variety of web applications for customers using Laravel.</p>
-                                            <a href="/partner/vehikl" class="learn_more">More about Vehikl
+                                            <p class="small">Команда экспертов Laravel по разбору кода. За эти годы мы создали множество веб-приложений для клиентов, использующих Laravel.</p>
+                                            <a href="/partner/vehikl" class="learn_more">Больше о Vehikl
                                                 <span>→</span></a>
                                         @elseif($otherPartner == 'devsquad')
                                             <div class="logo_contain">
                                                 <img src="/img/partners/devsquad.png" width="183" alt="DevSquad">
                                             </div>
-                                            <p class="small">DevSquad team members have unique and diverse skills, and this cross-functionality lets us successfully complete any mission.</p>
-                                            <a href="/partner/dev-squad" class="learn_more">More about DevSquad
+                                            <p class="small">Члены команды DevSquad обладают уникальными и разнообразными навыками, и эта кросс-функциональность позволяет нам успешно выполнять любую миссию.</p>
+                                            <a href="/partner/dev-squad" class="learn_more">Больше о DevSquad
                                                 <span>→</span></a>
                                         @elseif($otherPartner == '64robots')
                                             <div class="logo_contain">
                                                 <img src="/img/partners/64Robots.min.svg" alt="64 Robots">
                                             </div>
-                                            <p class="small">64 Robots is a team of Laravel experts with a background in building successful startups and SaaS products.</p>
-                                            <a href="/partner/64robots" class="learn_more">More about 64 Robots
+                                            <p class="small">64 Robots - это команда экспертов Laravel с опытом создания успешных стартапов и продуктов SaaS.</p>
+                                            <a href="/partner/64robots" class="learn_more">Больше о 64 Robots
                                                 <span>→</span></a>
                                         @endif
                                     </div>
@@ -114,8 +114,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/kirschbaum.min.svg" alt="Kirschbaum">
                                     </div>
-                                    <p class="small">A team of carefully curated Laravel experts with a history of delivering practical and efficient solutions to complex problems.</p>
-                                    <a href="/partner/kirschbaum-development-group" class="learn_more">More about Kirschbaum
+                                    <p class="small">Команда тщательно отобранных экспертов Laravel с историей предоставления практических и эффективных решений сложных проблем.</p>
+                                    <a href="/partner/kirschbaum-development-group" class="learn_more">Больше о Kirschbaum
                                         <span>→</span></a>
                                 </div>
                             </li>
@@ -124,8 +124,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/byte5.png" width="107" alt="byte5">
                                     </div>
-                                    <p class="small">Specializing in innovative open source technologies to create great web applications, sites and shops for their international clients.</p>
-                                    <a href="/partner/byte5" class="learn_more">More about byte5 <span>→</span></a>
+                                    <p class="small">Специализируется на инновационных технологиях с открытым исходным кодом для создания отличных веб-приложений, сайтов и магазинов для своих международных клиентов.</p>
+                                    <a href="/partner/byte5" class="learn_more">Больше о byte5 <span>→</span></a>
                                 </div>
                             </li>
                             <li>
@@ -133,8 +133,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/cubet.png" alt="Cubet">
                                     </div>
-                                    <p class="small">Cubet Techno Labs is a 150+ member Digital Engineering company, helping to deliver your digital dreams to perfection.</p>
-                                    <a href="/partner/cubet" class="learn_more">More about Cubet <span>→</span></a>
+                                    <p class="small">Cubet Techno Labs - это более 150 членов компании, занимающейся цифровой инженерией, которая помогает воплотить Ваши цифровые мечты в совершенство.</p>
+                                    <a href="/partner/cubet" class="learn_more">Больше о Cubet <span>→</span></a>
                                 </div>
                             </li>
                             <li>
@@ -142,8 +142,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/ideil.min.svg" alt="ideil.">
                                     </div>
-                                    <p class="small">ideil’s main focus is custom software development. This is the thing that they enjoy doing as it is always a new challenge.</p>
-                                    <a href="/partner/ideil" class="learn_more">More about ideil. <span>→</span></a>
+                                    <p class="small">Компания ideil специализируется на разработке программного обеспечения на заказ. Это то, что им нравится делать, потому что это всегда новый вызов.</p>
+                                    <a href="/partner/ideil" class="learn_more">Больше о ideil. <span>→</span></a>
                                 </div>
                             </li>
                             <li>
@@ -151,8 +151,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/cyberduck.png" width="245" alt="Cyber-Duck">
                                     </div>
-                                    <p class="small">The Cyber-Duck team is comprised of 45+ user experience experts, software developers and marketing strategists based in the UK and USA.</p>
-                                    <a href="/partner/cyber-duck" class="learn_more">More about Cyber-Duck
+                                    <p class="small">Команда Cyber-Duck состоит из 45+ экспертов по пользовательскому опыту, разработчиков программного обеспечения и маркетинговых стратегов из Великобритании и США.</p>
+                                    <a href="/partner/cyber-duck" class="learn_more">Больше о Cyber-Duck
                                         <span>→</span></a>
                                 </div>
                             </li>
@@ -161,8 +161,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/aboutyou.svg" alt="About You">
                                     </div>
-                                    <p class="small">ABOUT YOU is one of the fastest-growing e-commerce startups in Europe located in the city center of Hamburg.</p>
-                                    <a href="/partner/about-you" class="learn_more">More about About You. <span>→</span></a>
+                                    <p class="small">ABOUT YOU - один из самых быстрорастущих стартапов в области электронной коммерции в Европе, расположенный в центре Гамбурга.</p>
+                                    <a href="/partner/about-you" class="learn_more">Больше о About You. <span>→</span></a>
                                 </div>
                             </li>
                             <li>
@@ -170,8 +170,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/romega.svg" alt="Romega Software" style="height: 80px;margin-left: -14px;">
                                     </div>
-                                    <p class="small">Braden and Ben are infrastructure, development, and business management leaders who offer you their expertise and partnership so you can move from ideation to deployment and beyond with confidence.</p>
-                                    <a href="/partner/romega-software" class="learn_more">More about Romega.
+                                    <p class="small">Braden and Ben - руководители инфраструктуры, разработки и управления бизнесом, которые предлагают Вам свой опыт и партнерские отношения, чтобы Вы могли уверенно переходить от идеи к развертыванию и не только.</p>
+                                    <a href="/partner/romega-software" class="learn_more">Больше о Romega.
                                         <span>→</span></a>
                                 </div>
                             </li>
@@ -180,8 +180,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/jump24.jpg" alt="Jump24" style="height: 80px;margin-left: -14px;">
                                     </div>
-                                    <p class="small">Having worked across many different industries and client sizes, we relish in solving complex challenges to ensure that our projects are a success.</p>
-                                    <a href="/partner/jump24" class="learn_more">More about Jump24. <span>→</span></a>
+                                    <p class="small">Работая в самых разных отраслях и размерах клиентов, мы с удовольствием решаем сложные задачи, чтобы обеспечить успех наших проектов.</p>
+                                    <a href="/partner/jump24" class="learn_more">Больше о Jump24. <span>→</span></a>
                                 </div>
                             </li>
                             <li>
@@ -189,8 +189,8 @@
                                     <div class="logo_contain">
                                         <img src="/img/partners/few.svg" alt="Few" style="height: 75px;margin-left: -14px;">
                                     </div>
-                                    <p class="small">We design and build rad digital products for teams of all sizes, from startups to enterprise organizations.</p>
-                                    <a href="/partner/few" class="learn_more">More about Few. <span>→</span></a>
+                                    <p class="small">Мы проектируем и создаем отличные цифровые продукты для команд любого размера, от стартапов до корпоративных организаций.</p>
+                                    <a href="/partner/few" class="learn_more">Больше о Few. <span>→</span></a>
                                 </div>
                             </li>
                         </ul>

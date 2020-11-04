@@ -16,7 +16,7 @@
                                 {!! $index !!}
                             </div>
 
-                            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYILK3E&placement=laravelcom" id="_carbonads_js"></script>
+                            <!-- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYILK3E&placement=laravelcom" id="_carbonads_js"></script> -->
 
 
                         </div>
@@ -32,9 +32,9 @@
                     <header class="docs_actions">
                         <div class="version_drop">
                             <div class="input_group">
-                                <label>Version</label>
+                                <label>Версия</label>
                                 <div class="custom_select">
-                                    <select id="version_switcher" aria-label="Laravel version">
+                                    <select id="version_switcher" aria-label="Версия Ларавел">
                                         @foreach ($versions as $key => $display)
                                             <option {{ $currentVersion == $key ? 'selected' : '' }} value="{{ url('docs/'.$key.$currentSection) }}">{{ $display }}</option>
                                         @endforeach
@@ -44,7 +44,7 @@
                         </div>
                         <div class="search_contain">
                             <div class="input_group search icon">
-                                <input type="text" class="search_input" id="search-docs-input" placeholder="Search Docs" aria-label="Search in the documentation">
+                                <input type="text" class="search_input" id="search-docs-input" placeholder="Поиск документации" aria-label="Поиск в документации">
                                 <input type="submit" class="search_submit icon_display">
                             </div>
                         </div>
@@ -59,8 +59,8 @@
                                         </div>
 
                                         <p class="content">
-                                            <strong>WARNING</strong> You're browsing the documentation for an old version of Laravel.
-                                            Consider upgrading your project to <a href="{{ route('docs.version', DEFAULT_VERSION) }}">Laravel {{ DEFAULT_VERSION }}</a>.
+                                            <strong>ПРЕДУПРЕЖДЕНИЕ</strong> Вы просматриваете документацию к старой версии Laravel.
+                                            Рассмотрите возможность обновления Вашего проекта до <a href="{{ route('docs.version', DEFAULT_VERSION) }}">Laravel {{ DEFAULT_VERSION }}</a>.
                                         </p>
                                     </div>
                                 </blockquote>
@@ -74,8 +74,8 @@
                                         </div>
 
                                         <p class="content">
-                                            <strong>WARNING</strong> You're browsing the documentation for an upcoming version of Laravel.
-                                            The documentation and features of this release are subject to change.
+                                            <strong>ПРЕДУПРЕЖДЕНИЕ</strong> Вы просматриваете документацию к следующей версии Laravel.
+                                            Документация и функции этого выпуска могут быть изменены.
                                         </p>
                                     </div>
                                 </blockquote>
