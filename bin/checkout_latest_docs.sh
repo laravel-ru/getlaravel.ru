@@ -7,7 +7,7 @@ DOCS_VERSIONS=(
 )
 
 for v in "${DOCS_VERSIONS[@]}"; do
-    if [ -d "resources/docs/$v-ru" ]; then
+    if [ -d "resources/docs/$v" ]; then
         echo "Pulling latest documentation updates for $v-ru..."
         (cd resources/docs/$v && git pull)
     else
