@@ -10,7 +10,7 @@
                 <img class="hidden ml-5 sm:block" src="/img/logotype.min.svg" alt="Laravel">
             </a>
             <ul class="relative hidden lg:ml-6 lg:pt-3 lg:flex lg:items-end lg:space-x-6 xl:ml-14 xl:space-x-10">
-                <li><a href="/docs">Documentation</a></li>
+                <li><a href="/docs">Документация</a></li>
                 @if (SHOW_VAPOR)
                     <li><a href="https://vapor.laravel.com">Vapor</a></li>
                 @else
@@ -18,7 +18,7 @@
                 @endif
                 <li x-data="{ expanded: false }" class="relative" @keydown.window.escape="expanded = false">
                     <button class="flex items-center justify-center focus:outline-none" @click="expanded = !expanded">
-                        Ecosystem<span class="ml-3 flex-shrink-0"><img :class="{ 'rotate-180': expanded }" class="w-2.5 h-2.5 transform transition-transform" src="/img/icons/nav_arrow.min.svg" alt="Expand"></span>
+                        Экосистема<span class="ml-3 flex-shrink-0"><img :class="{ 'rotate-180': expanded }" class="w-2.5 h-2.5 transform transition-transform" src="/img/icons/nav_arrow.min.svg" alt="Развернуть"></span>
                     </button>
                     <div
                         x-show="expanded"
@@ -40,7 +40,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Vapor</div>
-                                            <span class="text-gray-600 text-xs">Serverless Platform</span>
+                                            <span class="text-gray-600 text-xs">Бессерверная платформа</span>
                                         </div>
                                     </a>
                                 </li>
@@ -51,7 +51,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Forge</div>
-                                            <span class="text-gray-600 text-xs">Server Management</span>
+                                            <span class="text-gray-600 text-xs">Управление сервером</span>
                                         </div>
                                     </a>
                                 </li>
@@ -62,7 +62,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Envoyer</div>
-                                            <span class="text-gray-600 text-xs">Zero Downtime Deployment</span>
+                                            <span class="text-gray-600 text-xs">Развертывание с нулевым временем простоя</span>
                                         </div>
                                     </a>
                                 </li>
@@ -73,7 +73,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Horizon</div>
-                                            <span class="text-gray-600 text-xs">Queue Monitoring</span>
+                                            <span class="text-gray-600 text-xs">Мониторинг очереди</span>
                                         </div>
                                     </a>
                                 </li>
@@ -84,7 +84,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Nova</div>
-                                            <span class="text-gray-600 text-xs">Administration Panel</span>
+                                            <span class="text-gray-600 text-xs">Панель управления</span>
                                         </div>
                                     </a>
                                 </li>
@@ -95,7 +95,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Echo</div>
-                                            <span class="text-gray-600 text-xs">Realtime Events</span>
+                                            <span class="text-gray-600 text-xs">События в реальном времени</span>
                                         </div>
                                     </a>
                                 </li>
@@ -106,7 +106,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Lumen</div>
-                                            <span class="text-gray-600 text-xs">Micro-Framework</span>
+                                            <span class="text-gray-600 text-xs">Микро-фреймворк</span>
                                         </div>
                                     </a>
                                 </li>
@@ -117,7 +117,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Homestead</div>
-                                        <span class="text-gray-600 text-xs">Pre-Packaged Vagrant Box</span>
+                                        <span class="text-gray-600 text-xs">Предварительно упакованная коробка Vagrant</span>
                                     </div>
                                     </a>
                                 </li>
@@ -128,7 +128,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Spark</div>
-                                            <span class="text-gray-600 text-xs">SaaS App Scaffolding</span>
+                                            <span class="text-gray-600 text-xs">Каркас приложений SaaS</span>
                                         </div>
                                     </a>
                                 </li>
@@ -139,7 +139,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Valet</div>
-                                            <span class="text-gray-600 text-xs">Dev Environment for Macs</span>
+                                            <span class="text-gray-600 text-xs">Среда разработки для Mac</span>
                                         </div>
                                     </a>
                                 </li>
@@ -150,7 +150,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Mix</div>
-                                        <span class="text-gray-600 text-xs">Webpack Asset Compilation</span>
+                                        <span class="text-gray-600 text-xs">Компиляция активов Webpack</span>
                                     </div>
                                     </a>
                                 </li>
@@ -161,7 +161,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Cashier</div>
-                                            <span class="text-gray-600 text-xs">Subscription Billing Integration</span>
+                                            <span class="text-gray-600 text-xs">Интеграция биллинга по подписке</span>
                                         </div>
                                     </a>
                                 </li>
@@ -172,7 +172,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Dusk</div>
-                                            <span class="text-gray-600 text-xs">Browser Testing and Automation</span>
+                                            <span class="text-gray-600 text-xs">Браузерное тестирование и автоматизация</span>
                                         </div>
                                     </a>
                                 </li>
@@ -183,7 +183,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Passport</div>
-                                            <span class="text-gray-600 text-xs">Painless OAuth2 Implementation</span>
+                                            <span class="text-gray-600 text-xs">Безболезненная реализация OAuth2</span>
                                         </div>
                                     </a>
                                 </li>
@@ -194,7 +194,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Scout</div>
-                                            <span class="text-gray-600 text-xs">Full-Text Search</span>
+                                            <span class="text-gray-600 text-xs">Полнотекстовый поиск</span>
                                         </div>
                                     </a>
                                 </li>
@@ -205,7 +205,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Socialite</div>
-                                            <span class="text-gray-600 text-xs">OAuth Authentication</span>
+                                            <span class="text-gray-600 text-xs">OAuth аутентификация</span>
                                         </div>
                                     </a>
                                 </li>
@@ -216,7 +216,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Telescope</div>
-                                            <span class="text-gray-600 text-xs">Debug Assistant</span>
+                                            <span class="text-gray-600 text-xs">Помощник по отладке</span>
                                         </div>
                                     </a>
                                 </li>
@@ -227,7 +227,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Jetstream</div>
-                                            <span class="text-gray-600 text-xs">App Scaffolding</span>
+                                            <span class="text-gray-600 text-xs">Разработка приложений</span>
                                         </div>
                                     </a>
                                 </li>
@@ -235,8 +235,8 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="https://laravel-news.com">News</a></li>
-                <li><a href="/partners">Partners</a></li>
+                <li><a href="https://laravel-news.com">Новости</a></li>
+                <li><a href="/partners">Партнеры</a></li>
             </ul>
             <div class="flex-1 flex items-center justify-end">
                 <div x-data="searchComponent()" x-init="init()" class="ml-4 relative flex-1 flex justify-end max-w-xs w-full lg:absolute lg:right-0 lg:max-w-xxs lg:ml-10 xl:max-w-xs">
@@ -255,8 +255,8 @@
                             x-model.debouce.200ms="search"
                             x-ref="searchInput"
                             class="flex-1 w-full pl-8 pr-4 py-1 placeholder-gray-900 tracking-wide bg-white focus:outline-none"
-                            placeholder="Search Docs"
-                            aria-label="Search in the documentation"
+                            placeholder="Искать в Документации"
+                            aria-label="Поиск в документации"
                         >
                     </div>
                     @include('partials.search-results')
@@ -289,7 +289,7 @@
         >
             <div class="relative py-8 px-8 bg-white">
                 <ul>
-                    <li><a class="block w-full py-2 text-center" href="/docs">Documentation</a></li>
+                    <li><a class="block w-full py-2 text-center" href="/docs">Документация</a></li>
                     @if (SHOW_VAPOR)
                         <li><a class="block w-full py-2 text-center" href="https://vapor.laravel.com">Vapor</a></li>
                     @else
@@ -297,9 +297,9 @@
                     @endif
                     <li x-data="{ expanded: false }" @keydown.window.escape="expanded = false" @click.away="expanded = false">
                         <button class="flex items-center justify-center w-full py-2 text-center" @click="expanded = !expanded">
-                            Ecosystem
+                            Экосистема
                             <span class="ml-3 flex-shrink-0">
-                                <img :class="{ 'rotate-180': expanded }" class="w-2.5 h-2.5 transform transition-transform" src="/img/icons/nav_arrow.min.svg" alt="Expand">
+                                <img :class="{ 'rotate-180': expanded }" class="w-2.5 h-2.5 transform transition-transform" src="/img/icons/nav_arrow.min.svg" alt="Развернуть">
                             </span>
                         </button>
                         <div
@@ -321,7 +321,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Vapor</div>
-                                            <span class="text-gray-600 text-xs">Serverless Platform</span>
+                                            <span class="text-gray-600 text-xs">Бессерверная платформа</span>
                                         </div>
                                     </a>
                                 </li>
@@ -332,7 +332,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Forge</div>
-                                            <span class="text-gray-600 text-xs">Server Management</span>
+                                            <span class="text-gray-600 text-xs">Управление сервером</span>
                                         </div>
                                     </a>
                                 </li>
@@ -343,7 +343,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Envoyer</div>
-                                            <span class="text-gray-600 text-xs">Zero Downtime Deployment</span>
+                                            <span class="text-gray-600 text-xs">Развертывание с нулевым временем простоя</span>
                                         </div>
                                     </a>
                                 </li>
@@ -354,7 +354,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Horizon</div>
-                                            <span class="text-gray-600 text-xs">Queue Monitoring</span>
+                                            <span class="text-gray-600 text-xs">Мониторинг очереди</span>
                                         </div>
                                     </a>
                                 </li>
@@ -365,7 +365,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Nova</div>
-                                            <span class="text-gray-600 text-xs">Administration Panel</span>
+                                            <span class="text-gray-600 text-xs">Панель управления</span>
                                         </div>
                                     </a>
                                 </li>
@@ -376,7 +376,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Echo</div>
-                                            <span class="text-gray-600 text-xs">Realtime Events</span>
+                                            <span class="text-gray-600 text-xs">События в реальном времени</span>
                                         </div>
                                     </a>
                                 </li>
@@ -387,7 +387,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Lumen</div>
-                                            <span class="text-gray-600 text-xs">Micro-Framework</span>
+                                            <span class="text-gray-600 text-xs">Микро-фреймворк</span>
                                         </div>
                                     </a>
                                 </li>
@@ -398,7 +398,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Homestead</div>
-                                        <span class="text-gray-600 text-xs">Pre-Packaged Vagrant Box</span>
+                                        <span class="text-gray-600 text-xs">Предварительно упакованная коробка Vagrant</span>
                                     </div>
                                     </a>
                                 </li>
@@ -409,7 +409,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Spark</div>
-                                            <span class="text-gray-600 text-xs">SaaS App Scaffolding</span>
+                                            <span class="text-gray-600 text-xs">Каркас приложений SaaS</span>
                                         </div>
                                     </a>
                                 </li>
@@ -420,7 +420,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Valet</div>
-                                            <span class="text-gray-600 text-xs">Dev Environment for Macs</span>
+                                            <span class="text-gray-600 text-xs">Среда разработки для Mac</span>
                                         </div>
                                     </a>
                                 </li>
@@ -431,7 +431,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Mix</div>
-                                        <span class="text-gray-600 text-xs">Webpack Asset Compilation</span>
+                                        <span class="text-gray-600 text-xs">Компиляция активов Webpack</span>
                                     </div>
                                     </a>
                                 </li>
@@ -442,7 +442,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Cashier</div>
-                                            <span class="text-gray-600 text-xs">Subscription Billing Integration</span>
+                                            <span class="text-gray-600 text-xs">Интеграция биллинга по подписке</span>
                                         </div>
                                     </a>
                                 </li>
@@ -453,7 +453,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Dusk</div>
-                                            <span class="text-gray-600 text-xs">Browser Testing and Automation</span>
+                                            <span class="text-gray-600 text-xs">Браузерное тестирование и автоматизация</span>
                                         </div>
                                     </a>
                                 </li>
@@ -464,7 +464,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Passport</div>
-                                            <span class="text-gray-600 text-xs">Painless OAuth2 Implementation</span>
+                                            <span class="text-gray-600 text-xs">Безболезненная реализация OAuth2</span>
                                         </div>
                                     </a>
                                 </li>
@@ -475,7 +475,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Scout</div>
-                                            <span class="text-gray-600 text-xs">Full-Text Search</span>
+                                            <span class="text-gray-600 text-xs">Полнотекстовый поиск</span>
                                         </div>
                                     </a>
                                 </li>
@@ -486,7 +486,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Socialite</div>
-                                            <span class="text-gray-600 text-xs">OAuth Authentication</span>
+                                            <span class="text-gray-600 text-xs">OAuth аутентификация</span>
                                         </div>
                                     </a>
                                 </li>
@@ -497,7 +497,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Telescope</div>
-                                            <span class="text-gray-600 text-xs">Debug Assistant</span>
+                                            <span class="text-gray-600 text-xs">Помощник по отладке</span>
                                         </div>
                                     </a>
                                 </li>
@@ -508,15 +508,15 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div>Jetstream</div>
-                                            <span class="text-gray-600 text-xs">App Scaffolding</span>
+                                            <span class="text-gray-600 text-xs">Разработка приложений</span>
                                         </div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li><a class="block w-full py-2 text-center" href="https://laravel-news.com">News</a></li>
-                    <li><a class="block w-full py-2 text-center" href="/partners">Partners</a></li>
+                    <li><a class="block w-full py-2 text-center" href="https://laravel-news.com">Новости</a></li>
+                    <li><a class="block w-full py-2 text-center" href="/partners">Партнеры</a></li>
                 </ul>
             </div>
         </nav>

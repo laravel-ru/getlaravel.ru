@@ -13,7 +13,7 @@
                     </div>
                     <div class="px-3 self-stretch flex items-center">
                         <p class="text-gray-700 text-xs sm:text-sm">
-                            Laracon EU Online is happening soon! <span class="whitespace-nowrap">Sign up today! →</span>
+                            Скоро событие Laracon EU Online! <span class="whitespace-nowrap">Зарегистрироваться Сегодня! →</span>
                         </p>
                     </div>
                 </a>
@@ -27,15 +27,15 @@
                         <source src="/img/hero/hero.mp4" type="video/mp4">
                     </video>
                 </div>
-                <h1 class="max-w-xl font-medium text-3xl tracking-tight sm:text-4xl lg:text-5xl lg:leading-tight xl:max-w-3xl xl:pr-8 xl:text-5xl">The PHP Framework for <span class="whitespace-nowrap">Web Artisans</span></h1>
-                <p class="mt-3 max-w-md text-gray-600 sm:mt-5 lg:mt-8 lg:max-w-xl lg:text-lg xl:max-w-2xl">Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.</p>
+                <h1 class="max-w-xl font-medium text-3xl tracking-tight sm:text-4xl lg:text-5xl lg:leading-tight xl:max-w-3xl xl:pr-8 xl:text-5xl">Фреймворк PHP для <span class="whitespace-nowrap">Веб-Мастеров</span></h1>
+                <p class="mt-3 max-w-md text-gray-600 sm:mt-5 lg:mt-8 lg:max-w-xl lg:text-lg xl:max-w-2xl">Laravel - это фреймворк для веб-приложений с выразительным элегантным синтаксисом. Мы уже заложили основу - даем Вам возможность творить, не утруждая себя мелочами.</p>
                 <div class="mt-6 space-y-4 flex flex-col sm:flex-row sm:mt-8 sm:space-y-0 sm:space-x-4 md:mt-8 lg:mt-12">
                     <x-button.primary href="/docs">
-                        Documentation
+                        Документация
                     </x-button.primary>
                     <x-button.secondary href="https://laracasts.com" target="_blank">
                         <img class="w-6 h-6 flex-shrink-0" src="/img/icons/play.min.svg" alt="Play Video">
-                        <span class="ml-3">Watch Laracasts</span>
+                        <span class="ml-3">См. Laracasts</span>
                     </x-button.secondary>
                 </div>
             </div>
@@ -55,9 +55,9 @@
                 </div>
                 <div class="md:w-1/2 md:pl-8 lg:pl-24">
                     <h1 class="font-medium text-3xl tracking-tight sm:text-4xl lg:text-5xl lg:leading-tight xl:text-5xl">Laravel Vapor</h1>
-                    <p class="mt-3 max-w-xl text-gray-600 sm:mt-5 md:max-w-2xl md:mt-8 md:text-lg">Laravel Vapor is a serverless deployment platform for Laravel, powered by AWS. Launch your Laravel infrastructure on Vapor and fall in love with the scalable simplicity of serverless.</p>
+                    <p class="mt-3 max-w-xl text-gray-600 sm:mt-5 md:max-w-2xl md:mt-8 md:text-lg">Laravel Vapor - это платформа для бессерверного развертывания Laravel, работающая на AWS. Запустите свою инфраструктуру Laravel на Vapor и влюбитесь в масштабируемую простоту бессерверной архитектуры.</p>
                     <x-button.primary class="mt-6 sm:mt-8 md:mt-10" href="https://vapor.laravel.com" target="_blank">
-                        Learn More
+                        Узнать больше
                     </x-button.primary>
                 </div>
             @else
@@ -66,9 +66,9 @@
                 </div>
                 <div class="md:w-1/2 md:pl-8 lg:pl-24">
                     <h1 class="font-medium text-3xl tracking-tight sm:text-4xl lg:text-5xl lg:leading-tight xl:text-5xl">Laravel Forge</h1>
-                    <p class="mt-3 max-w-xl text-gray-600 sm:mt-5 md:max-w-2xl md:mt-8 md:text-lg">Instant PHP Platforms on DigitalOcean, Linode, and more. Featuring push-to-deploy, Redis, queues, and everything else you could need to launch and deploy impressive Laravel applications.</p>
+                    <p class="mt-3 max-w-xl text-gray-600 sm:mt-5 md:max-w-2xl md:mt-8 md:text-lg">Мгновенные PHP-платформы на DigitalOcean, Linode и других. Благодаря push-to-deploy, Redis, очередям и всему остальному, что Вам может понадобиться для запуска и развертывания впечатляющих приложений Laravel.</p>
                     <x-button.primary class="mt-6 sm:mt-8 md:mt-10" href="https://forge.laravel.com" target="_blank">
-                        Learn More
+                        Узнать больше
                     </x-button.primary>
                 </div>
             @endif
@@ -76,8 +76,8 @@
     </div>
 
     <div class="max-w-screen-xl px-8 mx-auto">
-        <h6 class="mx-auto text-center text-gray-600 font-medium text-lg">Revolutionize how you build the web.</h6>
-        <h1 class="mx-auto mt-4 font-medium text-3xl tracking-tight text-center sm:text-4xl lg:text-5xl lg:leading-tight xl:text-5xl">The Laravel Ecosystem</h1>
+        <h6 class="mx-auto text-center text-gray-600 font-medium text-lg">Революционность в построении Интернета.</h6>
+        <h1 class="mx-auto mt-4 font-medium text-3xl tracking-tight text-center sm:text-4xl lg:text-5xl lg:leading-tight xl:text-5xl">Экосистема Ларавел</h1>
         <ul class="mt-16 grid gap-6 relative sm:grid-cols-2 md:mt-24 md:grid-cols-3">
             <li>
                 <a href="https://vapor.laravel.com" class="flex items-center p-4 shadow-lg">
@@ -86,7 +86,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Vapor</div>
-                        <span class="text-gray-600 text-xs">Serverless Platform</span>
+                        <span class="text-gray-600 text-xs">Бессерверная платформа</span>
                     </div>
                 </a>
             </li>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Forge</div>
-                        <span class="text-gray-600 text-xs">Server Management</span>
+                        <span class="text-gray-600 text-xs">Управление сервером</span>
                     </div>
                 </a>
             </li>
@@ -108,7 +108,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Envoyer</div>
-                        <span class="text-gray-600 text-xs">Zero Downtime Deployment</span>
+                        <span class="text-gray-600 text-xs">Развертывание с нулевым временем простоя</span>
                     </div>
                 </a>
             </li>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Horizon</div>
-                        <span class="text-gray-600 text-xs">Queue Monitoring</span>
+                        <span class="text-gray-600 text-xs">Мониторинг очереди</span>
                     </div>
                 </a>
             </li>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Nova</div>
-                        <span class="text-gray-600 text-xs">Administration Panel</span>
+                        <span class="text-gray-600 text-xs">Панель управления</span>
                     </div>
                 </a>
             </li>
@@ -141,7 +141,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Echo</div>
-                        <span class="text-gray-600 text-xs">Realtime Events</span>
+                        <span class="text-gray-600 text-xs">События в реальном времени</span>
                     </div>
                 </a>
             </li>
@@ -152,7 +152,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Lumen</div>
-                        <span class="text-gray-600 text-xs">Micro-Framework</span>
+                        <span class="text-gray-600 text-xs">Микро-фреймворк</span>
                     </div>
                 </a>
             </li>
@@ -163,7 +163,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Homestead</div>
-                    <span class="text-gray-600 text-xs">Pre-Packaged Vagrant Box</span>
+                    <span class="text-gray-600 text-xs">Предварительно упакованная коробка Vagrant</span>
                 </div>
                 </a>
             </li>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Spark</div>
-                        <span class="text-gray-600 text-xs">SaaS App Scaffolding</span>
+                        <span class="text-gray-600 text-xs">Каркас приложений SaaS</span>
                     </div>
                 </a>
             </li>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Valet</div>
-                        <span class="text-gray-600 text-xs">Dev Environment for Macs</span>
+                        <span class="text-gray-600 text-xs">Среда разработки для Mac</span>
                     </div>
                 </a>
             </li>
@@ -196,7 +196,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Mix</div>
-                    <span class="text-gray-600 text-xs">Webpack Asset Compilation</span>
+                    <span class="text-gray-600 text-xs">Компиляция активов Webpack</span>
                 </div>
                 </a>
             </li>
@@ -207,7 +207,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Cashier</div>
-                        <span class="text-gray-600 text-xs">Subscription Billing Integration</span>
+                        <span class="text-gray-600 text-xs">Интеграция биллинга по подписке</span>
                     </div>
                 </a>
             </li>
@@ -218,7 +218,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Dusk</div>
-                        <span class="text-gray-600 text-xs">Browser Testing and Automation</span>
+                        <span class="text-gray-600 text-xs">Браузерное тестирование и автоматизация</span>
                     </div>
                 </a>
             </li>
@@ -229,7 +229,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Passport</div>
-                        <span class="text-gray-600 text-xs">Painless OAuth2 Implementation</span>
+                        <span class="text-gray-600 text-xs">Безболезненная реализация OAuth2</span>
                     </div>
                 </a>
             </li>
@@ -240,7 +240,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Scout</div>
-                        <span class="text-gray-600 text-xs">Full-Text Search</span>
+                        <span class="text-gray-600 text-xs">Полнотекстовый поиск</span>
                     </div>
                 </a>
             </li>
@@ -251,7 +251,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Socialite</div>
-                        <span class="text-gray-600 text-xs">OAuth Authentication</span>
+                        <span class="text-gray-600 text-xs">OAuth аутентификация</span>
                     </div>
                 </a>
             </li>
@@ -262,7 +262,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Telescope</div>
-                        <span class="text-gray-600 text-xs">Debug Assistant</span>
+                        <span class="text-gray-600 text-xs">Помощник по отладке</span>
                     </div>
                 </a>
             </li>
@@ -273,7 +273,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div class="text-2xl">Jetstream</div>
-                        <span class="text-gray-600 text-xs">App Scaffolding</span>
+                        <span class="text-gray-600 text-xs">Разработка приложений</span>
                     </div>
                 </a>
             </li>
@@ -288,20 +288,20 @@
                 </video>
             </div>
             <div class="md:w-1/2">
-                <h6 class="text-gray-600 font-medium text-lg">Resources</h6>
-                <h1 class="mt-2 max-w-md font-medium text-3xl tracking-tight sm:text-4xl md:mt-4 md:max-w-4xl md:text-5xl md:leading-tight xl:text-5xl">A community built<br class="md:hidden lg:inline"> for people like you</h1>
-                <p class="mt-3 max-w-xl text-gray-600 sm:mt-5 md:max-w-2xl md:mt-8 md:text-lg">Whether you’re a solo developer or a 20-person team, getting started is simple thanks to our great community.</p>
+                <h6 class="text-gray-600 font-medium text-lg">Ресурсы</h6>
+                <h1 class="mt-2 max-w-md font-medium text-3xl tracking-tight sm:text-4xl md:mt-4 md:max-w-4xl md:text-5xl md:leading-tight xl:text-5xl">Сообщество построено<br class="md:hidden lg:inline"> для таких как ты</h1>
+                <p class="mt-3 max-w-xl text-gray-600 sm:mt-5 md:max-w-2xl md:mt-8 md:text-lg">Независимо от того, являетесь ли Вы индивидуальным разработчиком или командой из 20 человек, начать работу легко благодаря нашему замечательному сообществу.</p>
                 <ul class="mt-6 max-w-md grid grid-cols-2 gap-4 text-gray-600 font-medium text-sm leading-4 list-custom sm:mt-8">
-                    <li><a href="https://blog.laravel.com">Blog</a></li>
+                    <li><a href="https://blog.laravel.com">Блог</a></li>
                     <li><a href="https://laracasts.com">Laracasts</a></li>
                     <!-- <li><a href="http://laravelpodcast.com/">Podcast</a></li> -->
-                    <li><a href="https://laravel-news.com">Laravel News</a></li>
+                    <li><a href="https://laravel-news.com">Новости Laravel</a></li>
                     <li><a href="https://laracon.us/">Laracon</a></li>
-                    <li><a href="https://larajobs.com/">Jobs</a></li>
+                    <li><a href="https://larajobs.com/">Работа</a></li>
                     <li><a href="https://laracon.eu/">Laracon EU</a></li>
-                    <li><a href="https://laracasts.com/discuss">Forums</a></li>
+                    <li><a href="https://laracasts.com/discuss">Форумы</a></li>
                     <li><a href="https://laracon.com.au/">Laracon AU</a></li>
-                    <li><a href="https://certification.laravel.com/">Certification</a></li>
+                    <li><a href="https://certification.laravel.com/">Сертификация</a></li>
                 </ul>
             </div>
 
@@ -310,11 +310,11 @@
                     <div class="absolute right-0 transform translate-x-8 flex items-center justify-center w-16 h-16 bg-black sm:w-24 sm:h-24 md:w-16 md:h-16 lg:w-24 lg:h-24">
                         <img class="w-9 h-9 sm:w-14 sm:h-14 md:w-9 md:h-9 lg:w-14 lg:h-14" src="/img/icons/laracasts.min.svg" alt="Laracasts">
                     </div>
-                    <h6 class="text-gray-600 font-medium text-sm">Featured Resource</h6>
+                    <h6 class="text-gray-600 font-medium text-sm">Рекомендуемый ресурс</h6>
                     <h3 class="mt-3 font-medium text-xl sm:mt-5 sm:text-2xl">Laracasts</h3>
-                    <p class="mt-3 max-w-xs text-xs leading-5 text-gray-600 sm:mt-5 sm:text-base md:mt-8 md:leading-6 lg:max-w-sm">Nine out of ten doctors recommend Laracasts over competing brands. Check them out, see for yourself, and massively level up your development skills in the process.</p>
+                    <p class="mt-3 max-w-xs text-xs leading-5 text-gray-600 sm:mt-5 sm:text-base md:mt-8 md:leading-6 lg:max-w-sm">Девять из десяти докторов рекомендуют Laracasts, а не конкурирующие бренды. Проверьте их, убедитесь в этом сами и значительно улучшите свои навыки развития в процессе.</p>
                     <x-button.secondary href="https://laracasts.com" class="mt-6">
-                        Start Learning →
+                        Начать обучение →
                     </x-button.secondary>
                 </div>
             </div>
