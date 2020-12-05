@@ -1,5 +1,5 @@
 #!/bin/bash
-base=${base:-/home/forge/laravel.com}
+base=${base:-/www/getlaravel.ru/}
 docs=${base}/resources/docs
 
 cd ${docs}/6.x && git pull origin 6.x-ru

@@ -1,5 +1,5 @@
 #!/bin/bash
-base=${base:-/home/forge/laravel.com}
+base=${base:-/www/getlaravel.ru/}
 doctum=${base}/build/doctum
 
 cd $doctum
