@@ -239,28 +239,28 @@
                 <li><a href="/partners">Партнеры</a></li>
             </ul>
             <div class="flex-1 flex items-center justify-end">
-                <div x-data="searchComponent()" x-init="init()" class="ml-4 relative flex-1 flex justify-end max-w-xs w-full lg:absolute lg:right-0 lg:max-w-xxs lg:ml-10 xl:max-w-xs">
-                    <div
-                        class="relative w-6 border-b border-gray-600 border-opacity-50 overflow-hidden transition-all duration-500 lg:w-full hover:w-full focus-within:border-gray-600"
-                        :class="{ 'w-6': !searchIsOpen, 'w-full': searchIsOpen }"
-                        @click="searchIsOpen = true"
-                        @click.away="clear"
-                        @keydown.window.escape="clear"
-                        @keydown.arrow-up.prevent="focusPreviousResult()"
-                        @keydown.arrow-down.prevent="focusNextResult()"
-                                @keydown.window="handleSlashKey"
-                    >
-                        <svg class="absolute inset-y-0 left-0 z-10 mt-1 w-5 h-5 text-gray-900 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                        <input
-                            x-model.debouce.200ms="search"
-                            x-ref="searchInput"
-                            class="flex-1 w-full pl-8 pr-4 py-1 placeholder-gray-900 tracking-wide bg-white focus:outline-none"
-                            placeholder="Искать в Документации"
-                            aria-label="Поиск в документации"
-                        >
-                    </div>
-                    @include('partials.search-results')
-                </div>
+{{--                <div x-data="searchComponent()" x-init="init()" class="ml-4 relative flex-1 flex justify-end max-w-xs w-full lg:absolute lg:right-0 lg:max-w-xxs lg:ml-10 xl:max-w-xs">--}}
+{{--                    <div--}}
+{{--                        class="relative w-6 border-b border-gray-600 border-opacity-50 overflow-hidden transition-all duration-500 lg:w-full hover:w-full focus-within:border-gray-600"--}}
+{{--                        :class="{ 'w-6': !searchIsOpen, 'w-full': searchIsOpen }"--}}
+{{--                        @click="searchIsOpen = true"--}}
+{{--                        @click.away="clear"--}}
+{{--                        @keydown.window.escape="clear"--}}
+{{--                        @keydown.arrow-up.prevent="focusPreviousResult()"--}}
+{{--                        @keydown.arrow-down.prevent="focusNextResult()"--}}
+{{--                                @keydown.window="handleSlashKey"--}}
+{{--                    >--}}
+{{--                        <svg class="absolute inset-y-0 left-0 z-10 mt-1 w-5 h-5 text-gray-900 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>--}}
+{{--                        <input--}}
+{{--                            x-model.debouce.200ms="search"--}}
+{{--                            x-ref="searchInput"--}}
+{{--                            class="flex-1 w-full pl-8 pr-4 py-1 placeholder-gray-900 tracking-wide bg-white focus:outline-none"--}}
+{{--                            placeholder="Искать в Документации"--}}
+{{--                            aria-label="Поиск в документации"--}}
+{{--                        >--}}
+{{--                    </div>--}}
+{{--                    @include('partials.search-results')--}}
+{{--                </div>--}}
                 <button class="ml-2 relative w-10 h-10 p-2 text-red-600 lg:hidden focus:outline-none focus:shadow-outline" aria-label="Menu" @click.prevent="navIsOpen = !navIsOpen">
                     <svg x-show.transition.opacity="! navIsOpen" class="absolute inset-0 mt-2 ml-2 w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
                     <svg x-show.transition.opacity="navIsOpen" x-cloak class="absolute inset-0 mt-2 ml-2 w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
