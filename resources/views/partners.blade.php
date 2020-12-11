@@ -213,9 +213,9 @@
                                 <div class="h-14">
                                     <img src="/img/partners/curotec.png" alt="Curotect" class="h-full">
                                 </div>
-                                <p class="mt-6 flex-1 text-xs text-gray-600 md:text-sm">Curotec is a team of Laravel architects and senior engineers with extensive experience in web, e-commerce, integrations, and application development</p>
+                                <p class="mt-6 flex-1 text-xs text-gray-600 md:text-sm">Curotec - это команда архитекторов Laravel и старших инженеров с большим опытом работы в Интернете, электронной коммерции, интеграции и разработке приложений.</p>
                                 <a href="/partner/curotec" class="group mt-6 inline-flex items-center text-red-600 font-medium">
-                                    <span>More about Curotec</span>
+                                    <span>Больше о Curotec</span>
                                     <span class="ml-2 transform transition-transform group-hover:translate-x-1">→</span>
                                 </a>
                             </div>
