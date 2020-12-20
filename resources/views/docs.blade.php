@@ -60,9 +60,9 @@
                                 {!! $index !!}
                             </div>
                         </nav>
-                        <div :class="{ 'hidden': !navIsOpen }" x-cloak class="lg:block">
+                        <!-- <div :class="{ 'hidden': !navIsOpen }" x-cloak class="lg:block">
                             <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYILK3E&placement=laravelcom" id="_carbonads_js"></script>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="sticky bottom-0 flex-1 flex flex-col justify-end lg:hidden">
                         <div class="py-4 px-4 bg-white">
