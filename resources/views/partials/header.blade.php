@@ -111,13 +111,13 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/docs/{{DEFAULT_VERSION}}/homestead" class="flex items-center p-4 shadow-lg">
-                                        <div class="w-14 h-14 bg-homestead flex items-center justify-center">
-                                            <img src="/img/ecosystem/homestead.min.svg" alt="Icon" class="w-10 h-10">
+                                    <a href="/docs/{{DEFAULT_VERSION}}/sail" class="flex items-center p-4 shadow-lg">
+                                        <div class="bg-sail flex items-center justify-center w-14 h-14">
+                                            <img src="/img/ecosystem/sail.min.svg" alt="Icon" class="w-10 h-10">
                                         </div>
                                         <div class="ml-4 leading-5">
-                                            <div>Homestead</div>
-                                        <span class="text-gray-600 text-xs">Pre-Packaged Vagrant Box</span>
+                                            <div>Sail</div>
+                                        <span class="text-xs text-gray-600">Local Docker environment</span>
                                     </div>
                                     </a>
                                 </li>
@@ -177,13 +177,13 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/docs/{{DEFAULT_VERSION}}/passport" class="flex items-center p-4 shadow-lg">
-                                        <div class="w-14 h-14 bg-passport flex items-center justify-center">
-                                            <img src="/img/ecosystem/passport.min.svg" alt="Icon" class="w-10 h-10">
+                                    <a href="/docs/{{DEFAULT_VERSION}}/sanctum" class="flex items-center p-4 shadow-lg">
+                                        <div class="bg-sanctum flex items-center justify-center w-14 h-14">
+                                            <img src="/img/ecosystem/sanctum.min.svg" alt="Laravel Sanctum logomark" class="w-10 h-10">
                                         </div>
                                         <div class="ml-4 leading-5">
-                                            <div>Passport</div>
-                                            <span class="text-gray-600 text-xs">Painless OAuth2 Implementation</span>
+                                            <div>Sanctum</div>
+                                            <span class="text-xs text-gray-600">API / Mobile Authentication</span>
                                         </div>
                                     </a>
                                 </li>
@@ -236,7 +236,7 @@
                     </div>
                 </li>
                 <li><a href="https://laravel-news.com">News</a></li>
-                <li><a href="/partners">Partners</a></li>
+                <li><a href="https://partners.laravel.com">Partners</a></li>
             </ul>
             <div class="flex-1 flex items-center justify-end">
                 <div x-data="searchComponent()" x-init="init()" class="ml-4 relative flex-1 flex justify-end max-w-xs w-full lg:absolute lg:right-0 lg:max-w-xxs lg:ml-10 xl:max-w-xs">
@@ -255,7 +255,7 @@
                             x-model.debouce.200ms="search"
                             x-ref="searchInput"
                             class="flex-1 w-full pl-8 pr-4 py-1 placeholder-gray-900 tracking-wide bg-white focus:outline-none"
-                            placeholder="Search Docs"
+                            placeholder="Search Docs (Press '/')"
                             aria-label="Search in the documentation"
                         >
                     </div>
@@ -516,7 +516,7 @@
                         </div>
                     </li>
                     <li><a class="block w-full py-2 text-center" href="https://laravel-news.com">News</a></li>
-                    <li><a class="block w-full py-2 text-center" href="/partners">Partners</a></li>
+                    <li><a class="block w-full py-2 text-center" href="https://partners.laravel.com">Partners</a></li>
                 </ul>
             </div>
         </nav>

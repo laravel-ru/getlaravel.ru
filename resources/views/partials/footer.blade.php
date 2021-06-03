@@ -3,6 +3,7 @@
         [
             'title' => 'Highlights',
             'links' => [
+                'Our Team' => '/team',
                 'Release Notes' => '/docs/' . DEFAULT_VERSION . '/releases',
                 'Getting Started' => '/docs/' . DEFAULT_VERSION . '/installation',
                 'Routing' => '/docs/' . DEFAULT_VERSION . '/routing',
@@ -22,51 +23,52 @@
                 'Laravel News' => 'https://laravel-news.com',
                 'Laracon' => 'https://laracon.us',
                 'Laracon EU' => 'https://laracon.eu/',
-                'Laracon AU' => 'https://laracon.com.au/',
+                // 'Laracon AU' => 'https://laracon.com.au/',
                 'Jobs' => 'https://larajobs.com',
                 'Certification' => 'https://certification.laravel.com/',
                 'Forums' => 'https://laracasts.com/discuss',
             ],
         ],
         [
-            'title' => 'Partners',
-            'links' => [
-                'Vehikl' => 'https://vehikl.com',
-                'Tighten' => 'https://tighten.co',
-                'Kirschbaum' => 'https://kirschbaumdevelopment.com/',
-                'Byte 5' => 'https://www.byte5.net/',
-                '64 Robots' => 'https://64robots.com/',
-                'Cubet' => 'https://cubettech.com/',
-                'DevSquad' => 'https://devsquad.com/',
-                'Ideil' => 'https://www.ideil.com/',
-                'Cyber-Duck' => 'https://www.cyber-duck.co.uk/how-we-work/technology/laravel?utm_source=Laravel%20Partner&utm_medium=Sponsorship',
-                'ABOUT YOU' => 'https://corporate.aboutyou.de/app/uploads/2019/08/INTRO-Pitch-I-AY-Tech.pdf?utm_source=laravelpartnersfindoutmore&utm_medium=socialgroups&utm_campaign=tech',
-                'A2 Design' => 'https://www.a2design.biz/',
-                'Romega Software' => 'https://romegadigital.com/',
-                'Jump24' => 'https://jump24.co.uk/',
-                'Become A Partner' => 'https://docs.google.com/forms/d/e/1FAIpQLSeOTE1G6zxSPbKdmQ59UKkL_Rja_ddAyG6Y6xxGdSGAWlNTFA/viewform',
-            ]
-        ],
+             'title' => 'Partners',
+             'links' => [
+                 'Vehikl' => 'https://vehikl.com',
+                 'Tighten' => 'https://tighten.co',
+                 '64 Robots' => 'https://64robots.com/',
+                 'Kirschbaum' => 'https://kirschbaumdevelopment.com/',
+                 'Curotec' => 'https://www.curotec.com/services/technologies/laravel/',
+                 'Jump24' => 'https://jump24.co.uk/',
+                 'A2 Design' => 'https://www.a2design.biz/',
+                 'ABOUT YOU' => 'https://corporate.aboutyou.de/app/uploads/2019/08/INTRO-Pitch-I-AY-Tech.pdf?utm_source=laravelpartnersfindoutmore&utm_medium=socialgroups&utm_campaign=tech',
+                 'Byte 5' => 'https://www.byte5.net/',
+                 'Cubet' => 'https://cubettech.com/',
+                 'Cyber-Duck' => 'https://www.cyber-duck.co.uk/how-we-work/technology/laravel?utm_source=Laravel%20Partner&utm_medium=Sponsorship',
+                 'DevSquad' => 'https://devsquad.com/',
+                 'Ideil' => 'https://www.ideil.com/',
+                 'Romega Software' => 'https://romegadigital.com/',
+                 'Worksome' => 'https://www.worksome.com/',
+             ]
+         ],
         [
             'title' => 'Ecosystem',
             'links' => [
-                'Vapor' => 'https://vapor.laravel.com',
-                'Forge' => 'https://forge.laravel.com',
+                'Cashier' => '/docs/' . DEFAULT_VERSION . '/billing',
+                'Dusk' => '/docs/' . DEFAULT_VERSION . '/dusk',
+                'Echo' => '/docs/' . DEFAULT_VERSION . '/broadcasting',
                 'Envoyer' => 'https://envoyer.io',
+                'Forge' => 'https://forge.laravel.com',
+                'Homestead' => '/docs/' . DEFAULT_VERSION . '/homestead',
                 'Horizon' => '/docs/' . DEFAULT_VERSION . '/horizon',
                 'Lumen' => 'https://lumen.laravel.com',
-                'Nova' => 'https://nova.laravel.com',
-                'Echo' => '/docs/' . DEFAULT_VERSION . '/broadcasting',
-                'Valet' => '/docs/' . DEFAULT_VERSION . '/valet',
                 'Mix' => '/docs/' . DEFAULT_VERSION . '/mix',
-                'Spark' => 'https://spark.laravel.com',
-                'Cashier' => '/docs/' . DEFAULT_VERSION . '/billing',
-                'Homestead' => '/docs/' . DEFAULT_VERSION . '/homestead',
-                'Dusk' => '/docs/' . DEFAULT_VERSION . '/dusk',
+                'Nova' => 'https://nova.laravel.com',
                 'Passport' => '/docs/' . DEFAULT_VERSION . '/passport',
                 'Scout' => '/docs/' . DEFAULT_VERSION . '/scout',
                 'Socialite' => '/docs/' . DEFAULT_VERSION . '/socialite',
+                'Spark' => 'https://spark.laravel.com',
                 'Telescope' => '/docs/' . DEFAULT_VERSION . '/telescope',
+                'Valet' => '/docs/' . DEFAULT_VERSION . '/valet',
+                'Vapor' => 'https://vapor.laravel.com',
             ],
         ],
     ];
@@ -169,6 +171,11 @@
                             <li>
                                 <a href="https://discord.gg/mPZNm7A">
                                     <img class="w-6 h-6" src="/img/social/discord.min.svg" alt="Discord">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/laravelphp">
+                                    <img class="w-6 h-6" src="/img/social/youtube.min.svg" alt="YouTube">
                                 </a>
                             </li>
                         </ul>
