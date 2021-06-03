@@ -1,6 +1,7 @@
 @extends('partials.layout')
 
 @section('content')
+    <x-accessibility.skip-to-content-link />
     <div class="relative overflow-auto" id="docsScreen">
         <div class="relative lg:flex lg:items-start">
             <aside
@@ -17,7 +18,7 @@
                         });
                     }
                 }"
-                class="fixed top-0 bottom-0 left-0 z-20 h-full w-16 flex flex-col bg-gradient-to-b from-gray-100 to-white transition-all duration-300 overflow-hidden lg:sticky lg:w-80 lg:flex-shrink-0 lg:flex lg:justify-end lg:items-end 2xl:max-w-lg 2xl:w-full"
+                class="hidden fixed top-0 bottom-0 left-0 z-20 h-full w-16 flex flex-col bg-gradient-to-b from-gray-100 to-white transition-all duration-300 overflow-hidden lg:sticky lg:w-80 lg:flex-shrink-0 lg:flex lg:justify-end lg:items-end 2xl:max-w-lg 2xl:w-full"
                 :class="{ 'w-64': navIsOpen }"
                 @click.away="navIsOpen = false"
                 @keydown.window.escape="navIsOpen = false"
@@ -60,9 +61,42 @@
                                 {!! $index !!}
                             </div>
                         </nav>
-                        <!-- <div :class="{ 'hidden': !navIsOpen }" x-cloak class="lg:block">
-                            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYILK3E&placement=laravelcom" id="_carbonads_js"></script>
-                        </div> -->
+
+                        @php
+                            $promote = null;
+
+                            switch(random_int(1, 3)) {
+                                case 1:
+                                    $promote = 'forge';
+                                    break;
+
+                                case 2:
+                                    $promote = 'vapor';
+                                    break;
+
+                                case 3:
+                                    $promote = 'spark';
+                                    break;
+                            }
+                        @endphp
+
+                        @if ($promote == 'forge')
+                            <div :class="{ 'hidden': !navIsOpen }" x-cloak class="mt-4 px-3 py-2 border-dashed border-gray-200 border rounded-lg text-xs leading-loose text-gray-700 lg:block">
+                                <span class="font-medium">Laravel Forge:</span> создание серверов PHP 8 и управление ими. Разверните свои приложения Laravel за секунды. <a class="underline text-red-600" href="https://forge.laravel.com">Зарегистрируйтесь сейчас!</a>.
+                            </div>
+                        @endif
+
+                        @if ($promote == 'vapor')
+                            <div :class="{ 'hidden': !navIsOpen }" x-cloak class="mt-4 px-3 py-2 border-dashed border-gray-200 border rounded-lg text-xs leading-loose text-gray-700 lg:block">
+                                <span class="font-medium">Laravel Vapor:</span> ощутите невероятные масштабы на выделенной бессерверной платформе для Laravel. <a class="underline text-red-600" href="https://vapor.laravel.com">Зарегистрируйтесь сейчас!</a>.
+                            </div>
+                        @endif
+
+                        @if ($promote == 'spark')
+                            <div :class="{ 'hidden': !navIsOpen }" x-cloak class="mt-4 px-3 py-2 border-dashed border-gray-200 border rounded-lg text-xs leading-loose text-gray-700 lg:block">
+                                <span class="font-medium">Laravel Spark:</span> следующее поколение Spark <a class="underline text-red-600" href="https://spark.laravel.com">доступно сейчас</a>.
+                            </div>
+                        @endif
                     </div>
                     <div class="sticky bottom-0 flex-1 flex flex-col justify-end lg:hidden">
                         <div class="py-4 px-4 bg-white">
@@ -75,10 +109,54 @@
                 </div>
             </aside>
 
-            <section class="flex-1 pl-20 lg:pl-0">
-                <div class="max-w-screen-lg px-4 sm:px-16 lg:px-24">
-                    <header class="flex flex-col items-end lg:mt-8 lg:flex-row-reverse">
-                        <div class="mt-8 w-full lg:mt-0 lg:w-64 lg:pl-12">
+            <header
+                class="lg:hidden"
+                @keydown.window.escape="navIsOpen = false"
+                @click.away="navIsOpen = false"
+            >
+                <div class="relative mx-auto w-full py-10 bg-white transition duration-200">
+                    <div class="mx-auto px-8 sm:px-16 flex items-center justify-between">
+                        <a href="/" class="flex items-center">
+                            <img class="" src="/img/logomark.min.svg" alt="Laravel">
+                            <img class="hidden ml-5 sm:block" src="/img/logotype.min.svg" alt="Laravel">
+                        </a>
+                        <div class="flex-1 flex items-center justify-end">
+                            <button class="ml-2 relative w-10 h-10 p-2 text-red-600 lg:hidden focus:outline-none focus:shadow-outline" aria-label="Menu" @click.prevent="navIsOpen = !navIsOpen">
+                                <svg x-show.transition.opacity="! navIsOpen" class="absolute inset-0 mt-2 ml-2 w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                                <svg x-show.transition.opacity="navIsOpen" x-cloak class="absolute inset-0 mt-2 ml-2 w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <span :class="{ 'shadow-sm': navIsOpen }" class="absolute inset-0 z-20 pointer-events-none"></span>
+                </div>
+                <div
+                    x-show="navIsOpen"
+                    x-transition:enter="duration-150"
+                    x-transition:leave="duration-100 ease-in"
+                    x-cloak
+                >
+                    <nav
+                        x-show="navIsOpen"
+                        x-cloak
+                        class="absolute w-full transform origin-top shadow-sm z-10"
+                        x-transition:enter="duration-150 ease-out"
+                        x-transition:enter-start="opacity-0 -translate-y-8 scale-75"
+                        x-transition:enter-end="opacity-100 scale-100"
+                        x-transition:leave="duration-100 ease-in"
+                        x-transition:leave-start="opacity-100 scale-100"
+                        x-transition:leave-end="opacity-0 -translate-y-8 scale-75"
+                    >
+                        <div class="relative p-8 bg-white docs_sidebar">
+                            {!! $index !!}
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <section class="flex-1">
+                <div class="max-w-screen-lg px-8 sm:px-16 lg:px-24">
+                    <div class="flex flex-col items-end lg:mt-8 lg:flex-row-reverse">
+                        <div class="w-full lg:w-64 lg:pl-12">
                             <div>
                                 <label class="text-gray-600 text-xs tracking-widest uppercase" for="version-switch">Версия</label>
                                 <div x-data class="relative w-full bg-white border-b border-gray-600 border-opacity-50 transition-all duration-500 focus-within:border-gray-600">
@@ -96,28 +174,28 @@
                                 </div>
                             </div>
                         </div>
-{{--                        <div x-data="searchComponent()" x-init="init()" class="relative mt-8 flex justify-end w-full lg:mt-0">--}}
-{{--                            <div--}}
-{{--                                class="relative w-full border-b border-gray-600 border-opacity-50 overflow-hidden transition-all duration-500 focus-within:border-gray-600"--}}
-{{--                                @click="searchIsOpen = true"--}}
-{{--                                @click.away="clear"--}}
-{{--                                @keydown.window.escape="clear"--}}
-{{--                                @keydown.window="handleSlashKey"--}}
-{{--                            >--}}
-{{--                                <svg class="absolute inset-y-0 left-0 z-10 mt-1 w-5 h-5 text-gray-900 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>--}}
-{{--                                <input--}}
-{{--                                    x-model.debouce.200ms="search"--}}
-{{--                                    x-ref="searchInput"--}}
-{{--                                    class="flex-1 w-full pl-8 pr-4 py-1 placeholder-gray-900 tracking-wide bg-white focus:outline-none"--}}
-{{--                                    placeholder="Поиск документации"--}}
-{{--                                    aria-label="Поиск в документации"--}}
-{{--                                    @keydown.arrow-up.prevent="focusPreviousResult()"--}}
-{{--                                    @keydown.arrow-down.prevent="focusNextResult()"--}}
-{{--                                >--}}
-{{--                            </div>--}}
-{{--                            @include('partials.search-results')--}}
-{{--                        </div>--}}
-                    </header>
+                        <div x-data="searchComponent()" x-init="init()" class="relative mt-8 flex justify-end w-full lg:mt-0">
+                            <div
+                                class="relative w-full border-b border-gray-600 border-opacity-50 overflow-hidden transition-all duration-500 focus-within:border-gray-600"
+                                @click="searchIsOpen = true"
+                                @click.away="clear"
+                                @keydown.window.escape="clear"
+                                @keydown.window="handleSlashKey"
+                            >
+                                <svg class="absolute inset-y-0 left-0 mt-1 w-5 h-5 text-gray-900 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                                <input
+                                    x-model.debouce.200ms="search"
+                                    x-ref="searchInput"
+                                    class="flex-1 w-full pl-8 pr-4 py-1 placeholder-gray-900 tracking-wide bg-white focus:outline-none"
+                                    placeholder="Search Docs (Press '/')"
+                                    aria-label="Search in the documentation"
+                                    @keydown.arrow-up.prevent="focusPreviousResult()"
+                                    @keydown.arrow-down.prevent="focusNextResult()"
+                                >
+                            </div>
+                            @include('partials.search-results')
+                        </div>
+                    </div>
 
                     <section class="mt-8 md:mt-16">
                         <section class="docs_main max-w-prose">
@@ -151,8 +229,10 @@
                                     </div>
                                 </blockquote>
                             @endif
-
-                            {!! $content !!}
+                            <x-accessibility.main-content-wrapper>
+                                {!! $content !!}
+                                <!-- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYILK3E&placement=laravelcom" id="_carbonads_js"></script> -->
+                            </x-accessibility.main-content-wrapper>
                         </section>
                     </section>
                 </div>

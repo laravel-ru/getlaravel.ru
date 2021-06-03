@@ -18,11 +18,12 @@ $versions = GitVersionCollection::create($dir)
 	->add('7.x', 'Laravel 7.x')
 	->add('8.x', 'Laravel 8.x');
 
-return new Doctum($iterator, array(
+return new Doctum($iterator, [
 	'title' => 'Laravel API',
 	'versions' => $versions,
 	'build_dir' => __DIR__.'/build/%version%',
 	'cache_dir' => __DIR__.'/cache/%version%',
 	'default_opened_level' => 2,
-	'remote_repository' => new GitHubRemoteRepository('laravel/framework', dirname($dir)),
-));
+    'remote_repository' => new GitHubRemoteRepository('laravel/framework', dirname($dir)),
+    'base_url' => 'https://laravel.com/api/%version%/',
+]);

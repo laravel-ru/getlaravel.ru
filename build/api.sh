@@ -1,5 +1,8 @@
 #!/bin/bash
-base=${base:-/www/getlaravel.ru/}
+
+set -e
+
+base=${base:-/www/getlaravel.ru}
 doctum=${base}/build/doctum
 
 cd $doctum
@@ -13,7 +16,7 @@ rm -rf ${doctum}/laravel
 # Run API Docs
 git clone https://github.com/laravel/framework.git ${doctum}/laravel
 
-${doctum}/vendor/bin/doctum.php update ${doctum}/doctum.php
+${doctum}/vendor/bin/doctum.php update ${doctum}/doctum.php -v --ignore-parse-errors
 
 # Delete old directory before copying new one
 rm -rf ${base}/public/api
