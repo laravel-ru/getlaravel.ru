@@ -23,6 +23,8 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/ins2wgm.css">
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
+
+    @include('partials.theme')
 </head>
 <body
     x-data="{
