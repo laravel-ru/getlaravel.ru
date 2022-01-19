@@ -37,6 +37,7 @@
     })(window,document,'script','dataLayer','GTM-NCP6DLH');</script>
     <!-- End Google Tag Manager -->
 
+    @include('partials.theme')
 </head>
 <body
     x-data="{
