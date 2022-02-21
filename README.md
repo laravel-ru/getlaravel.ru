@@ -10,7 +10,7 @@ If you want to work on this project on your local machine, you may follow the in
 2. Open your terminal and `cd` to your `~/Sites` folder
 3. Clone your fork into the `~/Sites/laravel` folder, by running the following command *with your username placed into the {username} slot*:
     ```bash
-    git clone git@github.com:{username}/laravel.com-next laravel
+    git clone git@github.com:{username}/laravel.com laravel
     ```
 4. CD into the new directory you just created:
     ```bash
@@ -20,6 +20,14 @@ If you want to work on this project on your local machine, you may follow the in
     ```bash
     ./bin/setup.sh
     ```
+   
+### Torchlight Integration
+
+This project relies on Torchlight for syntax highlighting. You will need to create an account at [torchlight.dev](https://torchlight.dev/) and generate a free personal token for use in this project. Once generated, add your token to your .env file:
+
+```ini
+TORCHLIGHT_TOKEN=your-torchlight-token
+```
 
 ### Syncing Upstream Changes Into Your Fork 
 
