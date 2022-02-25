@@ -12,7 +12,7 @@
                 'Авторизация' => '/docs/' . DEFAULT_VERSION . '/authorization',
                 'Консоль Artisan' => '/docs/' . DEFAULT_VERSION . '/artisan',
                 'База данных' => '/docs/' . DEFAULT_VERSION . '/database',
-                'Красноречивый ORM' => '/docs/' . DEFAULT_VERSION . '/eloquent',
+                'Eloquent ORM' => '/docs/' . DEFAULT_VERSION . '/eloquent',
                 'Тестирование' => '/docs/' . DEFAULT_VERSION . '/testing',
             ],
         ],
@@ -86,7 +86,7 @@
 
         <div class="mt-6 grid grid-cols-12 md:gap-x-8 gap-y-12 sm:mt-12">
             <div class="col-span-12 lg:col-span-4">
-                <p class="max-w-sm text-xs text-gray-700 sm:text-sm {{ $is_docs_page ? 'dark:text-gray-500' : '' }}">Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.</p>
+                <p class="max-w-sm text-xs text-gray-700 sm:text-sm {{ $is_docs_page ? 'dark:text-gray-500' : '' }}">Laravel — это фреймворк для веб-приложений с выразительным элегантным синтаксисом. Мы считаем, что разработка должна быть приятным и творческим опытом, чтобы быть действительно полезным. Laravel пытается облегчить разработку, упрощая общие задачи, используемые в большинстве веб-проектов.</p>
                 <ul class="mt-6 flex items-center space-x-3">
                     <li>
                         <a href="https://twitter.com/laravelphp">
