@@ -131,10 +131,10 @@
         </div>
         <div class="mt-10 border-t pt-6 pb-16 border-gray-200 {{ $is_docs_page ? 'dark:border-dark-500' : '' }}">
             <p class="text-xs text-gray-700 {{ $is_docs_page ? 'dark:text-gray-400' : '' }}">
-                Laravel is a Trademark of Taylor Otwell. Copyright &copy; 2011-{{ now()->format('Y') }} Laravel LLC.
+                Laravel является торговой маркой Тейлора Отвелла. Copyright &copy; 2011-{{ now()->format('Y') }} Laravel LLC.
             </p>
             <p class="mt-6 text-xs text-gray-700 {{ $is_docs_page ? 'dark:text-gray-400' : '' }}">
-                Code highlighting provided by <a href="https://torchlight.dev">Torchlight</a>
+                Подсветка кода предоставлена <a href="https://torchlight.dev">Torchlight</a>
             </p>
         </div>
     </div>
