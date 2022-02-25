@@ -17,7 +17,7 @@
                 <li><a href="https://vapor.laravel.com">Vapor</a></li>
                 <li x-data="{ expanded: false }" class="relative" @keydown.window.escape="expanded = false">
                     <button class="flex items-center justify-center" @click="expanded = !expanded">
-                        Ecosystem
+                        Экосистема
                         <span class="ml-3 shrink-0">
                             <svg xmlns="http://www.w3.org/2000/svg" :class="{ 'rotate-180': expanded }" class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                         </span>
@@ -46,7 +46,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Breeze</div>
-                                            <span class="text-gray-700 text-xs">Lightweight starter kit scaffolding for new applications with Blade or Inertia.</span>
+                                            <span class="text-gray-700 text-xs">Легковесные основы для стартового комплекта для новых приложений с Blade или Inertia.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -58,7 +58,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Cashier</div>
-                                            <span class="text-gray-700 text-xs">Take the pain out of managing subscriptions on Stripe or Paddle.</span>
+                                            <span class="text-gray-700 text-xs">Избавьтесь от необходимости управлять подписками на Stripe или Paddle.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -70,7 +70,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Dusk</div>
-                                            <span class="text-gray-700 text-xs">Automated browser testing to ship your application with confidence.</span>
+                                            <span class="text-gray-700 text-xs">Автоматическое тестирование браузера для уверенной отправки вашего приложения.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -82,7 +82,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Echo</div>
-                                            <span class="text-gray-700 text-xs">Listen for WebSocket events broadcast by your Laravel application.</span>
+                                            <span class="text-gray-700 text-xs">Слушайте события WebSocket, транслируемые вашим приложением Laravel.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -94,7 +94,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Envoyer</div>
-                                            <span class="text-gray-700 text-xs">Deploy your Laravel applications to customers with zero downtime.</span>
+                                            <span class="text-gray-700 text-xs">Развертывайте свои приложения Laravel клиентам без простоев.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -106,7 +106,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Forge</div>
-                                            <span class="text-gray-700 text-xs">Server management doesn't have to be a nightmare.</span>
+                                            <span class="text-gray-700 text-xs">Управление сервером не должно быть кошмаром.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -118,7 +118,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Horizon</div>
-                                            <span class="text-gray-700 text-xs">Beautiful UI for monitoring your Redis driven Laravel queues.</span>
+                                            <span class="text-gray-700 text-xs">Красивый пользовательский интерфейс для мониторинга очередей Laravel, управляемых Redis.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -130,7 +130,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Jetstream</div>
-                                            <span class="text-gray-700 text-xs">Robust starter kit including authentication and team management.</span>
+                                            <span class="text-gray-700 text-xs">Надежный стартовый комплект, включающий аутентификацию и управление командой.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -142,7 +142,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Mix</div>
-                                            <span class="text-gray-700 text-xs">Compile your JavaScript and CSS using Webpack with zero configuration.</span>
+                                            <span class="text-gray-700 text-xs">Скомпилируйте свой JavaScript и CSS с помощью Webpack без настройки.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -154,7 +154,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Nova</div>
-                                            <span class="text-gray-700 text-xs">Thoughtfully designed administration panel for your Laravel applications.</span>
+                                            <span class="text-gray-700 text-xs">Продуманно разработанная панель администрирования для ваших приложений Laravel.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -166,7 +166,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Octane</div>
-                                            <span class="text-gray-700 text-xs">Supercharge your application's performance by keeping it in memory.</span>
+                                            <span class="text-gray-700 text-xs">Повышайте производительность вашего приложения, сохраняя его в памяти.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -178,7 +178,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Sail</div>
-                                        <span class="text-xs text-g7ay-600">Hand-crafted Laravel local development experience using Docker.</span>
+                                        <span class="text-xs text-g7ay-600">Опыт локальной разработки Laravel вручную с использованием Docker.</span>
                                     </div>
                                     </a>
                                 </li>
@@ -190,7 +190,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Sanctum</div>
-                                            <span class="text-xs te7t-gray-600">API and mobile application authentication without wanting to pull your hair out.</span>
+                                            <span class="text-xs te7t-gray-600">Аутентификация API и мобильного приложения без желания рвать на себе волосы.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -202,7 +202,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Scout</div>
-                                            <span class="text-gray-700 text-xs">Lightning fast full-text search for your application's Eloquent models.</span>
+                                            <span class="text-gray-700 text-xs">Молниеносный полнотекстовый поиск моделей Eloquent вашего приложения.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -214,7 +214,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Socialite</div>
-                                            <span class="text-gray-700 text-xs">Social authentication via Facebook, Twitter, GitHub, LinkedIn, and more.</span>
+                                            <span class="text-gray-700 text-xs">Социальная аутентификация через Facebook, Twitter, GitHub, LinkedIn и т. д.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -226,7 +226,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Spark</div>
-                                            <span class="text-gray-700 text-xs">Launch your next business with our fully-featured, drop-in billing portal.</span>
+                                            <span class="text-gray-700 text-xs">Начните свой следующий бизнес с помощью нашего полнофункционального платежного портала.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -238,7 +238,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Telescope</div>
-                                            <span class="text-gray-700 text-xs">Debug your application using our debugging and insight UI.</span>
+                                            <span class="text-gray-700 text-xs">Отлаживайте свое приложение с помощью нашего пользовательского интерфейса для отладки и анализа.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -250,7 +250,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Valet</div>
-                                            <span class="text-gray-700 text-xs">The fastest Laravel local development experience - exclusively for macOS.</span>
+                                            <span class="text-gray-700 text-xs">Самая быстрая локальная разработка Laravel — исключительно для macOS.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -262,7 +262,7 @@
                                         </div>
                                         <div class="ml-4 leading-5">
                                             <div class="text-gray-900">Vapor</div>
-                                            <span class="text-gray-700 text-xs">Laravel Vapor is a serverless deployment platform for Laravel, powered by AWS.</span>
+                                            <span class="text-gray-700 text-xs">Laravel Vapor — это бессерверная платформа для развертывания Laravel на базе AWS.</span>
                                         </div>
                                     </a>
                                 </li>
@@ -270,14 +270,14 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="https://laravel-news.com">News</a></li>
-                <li><a href="https://partners.laravel.com">Partners</a></li>
+                <li><a href="https://laravel-news.com">Новости</a></li>
+                <li><a href="https://partners.laravel.com">Партнеры</a></li>
             </ul>
             <div class="flex-1 flex items-center justify-end">
                 <button @click.prevent="$dispatch('toggle-search-modal')">
                     <svg class="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                 </button>
-                <x-button.secondary href="/docs" class="hidden lg:ml-4 lg:inline-flex">Documentation</x-button.secondary>
+                <x-button.secondary href="/docs" class="hidden lg:ml-4 lg:inline-flex">Документация</x-button.secondary>
                 <button
                     class="ml-2 relative w-10 h-10 inline-flex items-center justify-center p-2 text-gray-700 lg:hidden"
                     aria-label="Toggle Menu"
@@ -306,9 +306,9 @@
                 <ul>
                     <li><a class="block w-full py-2" href="https://forge.laravel.com">Forge</a></li>
                     <li><a class="block w-full py-2" href="https://vapor.laravel.com">Vapor</a></li>
-                    <li><a class="block w-full py-3" href="https://laravel-news.com">News</a></li>
-                    <li><a class="block w-full py-3" href="https://partners.laravel.com">Partners</a></li>
-                    <li class="flex sm:justify-center"><x-button.secondary class="mt-3 w-full max-w-md" href="/docs">Documentation</x-button.secondary></li>
+                    <li><a class="block w-full py-3" href="https://laravel-news.com">Новости</a></li>
+                    <li><a class="block w-full py-3" href="https://partners.laravel.com">Партнеры</a></li>
+                    <li class="flex sm:justify-center"><x-button.secondary class="mt-3 w-full max-w-md" href="/docs">Документация</x-button.secondary></li>
                 </ul>
             </div>
         </nav>
