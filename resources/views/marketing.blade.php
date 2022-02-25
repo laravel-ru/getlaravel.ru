@@ -19,14 +19,14 @@
                     <x-cube :delay="1000" />
                 </div>
                 <div class="relative">
-                    <h1 class="max-w-3xl mx-auto text-5xl font-bold text-center md:text-6xl lg:text-7xl">The PHP Framework <br class="hidden lg:inline"><span class="text-red-500">for Web Artisans</span></h1>
-                    <p class="mt-6 max-w-xl mx-auto text-center text-gray-700 text-md leading-relaxed md:mt-8 md:text-lg lg:mt-10">Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.</p>
+                    <h1 class="max-w-3xl mx-auto text-5xl font-bold text-center md:text-6xl lg:text-7xl">PHP Фреймворк <br class="hidden lg:inline"><span class="text-red-500">для Веб-Мастеров</span></h1>
+                    <p class="mt-6 max-w-xl mx-auto text-center text-gray-700 text-md leading-relaxed md:mt-8 md:text-lg lg:mt-10">Laravel — это фреймворк для веб-приложений с выразительным элегантным синтаксисом. Мы уже заложили основу — даем вам возможность творить, не беспокоясь о мелочах.</p>
                     <div class="mt-6 max-w-sm mx-auto flex flex-col justify-center items-center gap-4 sm:flex-row md:mt-8 lg:mt-10">
                         <x-button.primary class="w-full sm:w-auto" href="/docs">
-                            Get Started
+                            Начало
                         </x-button.primary>
                         <x-button.secondary class="w-full sm:w-auto" href="https://laracasts.com" target="_blank">
-                            Watch Laracasts
+                            Смотреть ларакасты
                         </x-button.secondary>
                     </div>
                 </div>
@@ -62,10 +62,10 @@
                 </div>
                 <div class="w-full flex justify-center items-center px-5 xl:px-0">
                     <div class="sm:max-w-[480px]">
-                        <h2 class="text-4xl font-bold md:text-5xl">Write code for the joy of it.</h2>
-                        <p class="mt-6 text-gray-700 leading-relaxed">Laravel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide a wonderful developer experience.</p>
+                        <h2 class="text-4xl font-bold md:text-5xl">Пишите код в свое удовольствие.</h2>
+                        <p class="mt-6 text-gray-700 leading-relaxed">Laravel ценит красоту. Мы любим чистый код так же сильно, как и вы. Простой и элегантный синтаксис предоставляет потрясающую функциональность на кончиках ваших пальцев. Каждая функция была тщательно продумана, чтобы обеспечить прекрасный опыт разработчика.</p>
                         <x-button.secondary class="mt-6" href="/docs">
-                            Start Learning
+                            Начать обучение
                         </x-button.secondary>
                     </div>
                 </div>
@@ -80,11 +80,11 @@
             </div>
             <div class="w-full flex justify-center items-center">
                 <div class="sm:max-w-[480px]">
-                    <h2 class="text-4xl font-bold md:text-5xl">Monolith or API — the choice is yours.</h2>
-                    <p class="mt-6 text-gray-700 leading-relaxed">Build robust, full-stack applications in PHP using Laravel and <a class="underline" href="https://laravel-livewire.com">Livewire</a>. Love JavaScript? Build a monolithic JavaScript driven frontend by pairing Laravel with <a class="underline" href="https://inertiajs.com">Inertia</a>.</p>
-                    <p class="mt-6 text-gray-700 leading-relaxed">Or, let Laravel serve as a robust backend API for your Next.js application, mobile application, or other frontend. Either way, our starter kits will have you productive in minutes.</p>
+                    <h2 class="text-4xl font-bold md:text-5xl">Монолит или API — выбор за вами.</h2>
+                    <p class="mt-6 text-gray-700 leading-relaxed">Создавайте надежные приложения с полным стеком на PHP, используя Laravel и <a class="underline" href="https://laravel-livewire.com">Livewire</a>. Любите JavaScript? Создайте монолитный интерфейс на основе JavaScript, объединив Laravel с <a class="underline" href="https://inertiajs.com">Inertia</a>.</p>
+                    <p class="mt-6 text-gray-700 leading-relaxed">Или позвольте Laravel служить надежным внутренним API для вашего приложения Next.js, мобильного приложения или другого внешнего интерфейса. В любом случае, наши стартовые комплекты помогут вам продуктивно работать за считанные минуты.</p>
                     <x-button.secondary class="mt-6" href="/docs/starter-kits">
-                        Starter Kits
+                        Стартовые наборы
                     </x-button.secondary>
                 </div>
             </div>
@@ -94,27 +94,27 @@
     <div class="relative overflow-hidden py-16 md:pt-48">
         <x-radial-blur class="right-[-20%] top-0 w-[640px] h-[640px]" />
         <div class="max-w-screen-xl w-full mx-auto px-5">
-            <h2 class="text-4xl font-bold max-w-lg md:text-5xl">Everything you need to be amazing.</h2>
+            <h2 class="text-4xl font-bold max-w-lg md:text-5xl">Все, что вам нужно, чтобы быть удивительным.</h2>
             <div class="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <div>
                     <svg class="w-8 h-8 text-red-500" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#F9322C" d="M.5.5h31v31H.5z"/><path d="M8 11v10c0 2.21 3.582 4 8 4s8-1.79 8-4V11M8 11c0 2.21 3.582 4 8 4s8-1.79 8-4M8 11c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" stroke="#F9322C" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    <h3 class="mt-5 text-xl font-bold">Database</h3>
-                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Laravel's <a class="underline" href="/docs/eloquent">"Eloquent" ORM</a> provides best-in-class database abstraction without the headaches. Query and update your data without breaking a sweat. Eloquent pairs perfectly with MySQL, Postgres, SQLite, and SQL Server.</p>
+                    <h3 class="mt-5 text-xl font-bold">База данных</h3>
+                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Laravel <a class="underline" href="/docs/eloquent">"Eloquent" ORM</a> обеспечивает лучшую в своем классе абстракцию базы данных без головной боли. Запрашивайте и обновляйте свои данные, не напрягаясь. Eloquent идеально сочетается с MySQL, Postgres, SQLite и SQL Server.</p>
                 </div>
                 <div>
                     <svg class="w-8 h-8 text-red-500" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="currentColor" d="M.5.5h31v31H.5z"/><path d="M23 15H9m14 0a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2m14 0v-2a2 2 0 0 0-2-2M9 15v-2a2 2 0 0 1 2-2m10 0V9a2 2 0 0 0-2-2h-6a2 2 0 0 0-2 2v2m10 0H11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    <h3 class="mt-5 text-xl font-bold">Queues</h3>
-                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Dispatch background jobs to perform slow tasks like sending emails and generating reports while maintaining blazing fast response times. Laravel's <a class="underline" href="/docs/queues">robust queue system</a> can process jobs using Redis, Amazon SQS, or even MySQL and Postgres.</p>
+                    <h3 class="mt-5 text-xl font-bold">Очереди</h3>
+                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Отправляйте фоновые задания для выполнения медленных задач, таких как отправка электронных писем и создание отчетов, сохраняя при этом невероятно быстрое время отклика. <a class="underline" href="/docs/queues">Надежная система очередей</a> Laravel может обрабатывать задания с использованием Redis, Amazon SQS или даже MySQL и Postgres.</p>
                 </div>
                 <div>
                     <svg class="w-8 h-8 text-red-500" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#F9322C" d="M.5.5h31v31H.5z"/><path d="m10.171 15.828-2.12 2.122M19 19l-2 5-4-11 11 4-5 2Zm0 0 5 5-5-5ZM11.188 6.239l.777 2.897-.777-2.897Zm-2.052 5.726-2.898-.777 2.898.777ZM17.95 8.05l-2.122 2.122L17.95 8.05Z" stroke="#F9322C" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    <h3 class="mt-5 text-xl font-bold">WebSockets</h3>
-                    <p class="mt-4 text-gray-700 text-sm leading-relaxed"><a class="underline" href="/docs/broadcasting">Laravel Echo</a> and event broadcasting make it a cinch to build modern, realtime user experiences. Create amazing realtime applications while powering your WebSockets with pure PHP, Node.js, or serverless solutions like <a class="underline" href="https://pusher.com">Pusher</a> and <a class="underline" href="https://ably.com">Ably</a>.</p>
+                    <h3 class="mt-5 text-xl font-bold">Веб-сокеты</h3>
+                    <p class="mt-4 text-gray-700 text-sm leading-relaxed"><a class="underline" href="/docs/broadcasting">Laravel Echo</a> и трансляция событий упрощают создание современного пользовательского интерфейса в реальном времени. Создавайте удивительные приложения реального времени, используя для своих веб-сокетов чистый PHP, Node.js или бессерверные решения, такие как <a class="underline" href="https://pusher.com">Pusher</a> и <a class="underline" href="https://ably.com">Ably</a>.</p>
                 </div>
                 <div>
                     <svg class="w-8 h-8 text-red-500" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#F9322C" d="M.5.5h31v31H.5z"/><path d="M19 11a2 2 0 0 1 2 2l-2-2Zm6 2a6 6 0 0 1-7.743 5.743L15 21h-2v2h-2v2H8a1 1 0 0 1-1-1v-2.586a1 1 0 0 1 .293-.707l5.964-5.964A6 6 0 1 1 25 13v0Z" stroke="#F9322C" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    <h3 class="mt-5 text-xl font-bold">Authentication</h3>
-                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Stop sweating authentication. Laravel provides scaffolding for secure, session based authentication, while <a class="underline" href="/docs/sanctum">Laravel Sanctum</a> provides painless authentication for APIs and mobile applications.</p>
+                    <h3 class="mt-5 text-xl font-bold">Аутентификация</h3>
+                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Хватит мучиться с аутентификацией. Laravel предоставляет каркас для безопасной аутентификации на основе сессий, а <a class="underline" href="/docs/sanctum">Laravel Sanctum</a> обеспечивает безболезненную аутентификацию для API и мобильных приложений.</p>
                 </div>
             </div>
         </div>
@@ -141,10 +141,10 @@
                 </div>
                 <div class="w-full flex justify-center items-center px-5 xl:px-0">
                     <div class="sm:max-w-[480px]">
-                        <h2 class="text-4xl font-bold md:text-5xl">Move fast...<br />with confidence.</h2>
-                        <p class="mt-6 text-gray-700 leading-relaxed">Laravel is committed to delivering the best testing experience you can imagine. No more brittle tests that are a nightmare to maintain. Beautiful testing APIs, database seeding, and painless browser testing let you ship with confidence.</p>
+                        <h2 class="text-4xl font-bold md:text-5xl">Двигайтесь быстро...<br />с уверенностью.</h2>
+                        <p class="mt-6 text-gray-700 leading-relaxed">Laravel стремится предоставить лучший опыт тестирования, который вы можете себе представить. Больше никаких хрупких тестов, обслуживание которых было бы кошмаром. Прекрасные API-интерфейсы для тестирования, заполнение базы данных и безболезненное тестирование в браузере позволяют вам уверенно работать с продуктом.</p>
                         <x-button.secondary class="mt-6" href="/docs/http-tests">
-                            Learn More
+                            Узнать больше
                         </x-button.secondary>
                     </div>
                 </div>
@@ -154,8 +154,8 @@
 
     <div class="max-w-screen-xl mx-auto px-5 pt-16 pb-24 md:pt-24 lg:pt-48">
         <div class="sm:max-w-xl">
-            <h2 class="text-4xl font-bold md:text-5xl">Enterprise scale without the enterprise complexity.</h2>
-            <p class="mt-6 text-gray-700 leading-relaxed">Our vast library of meticulously maintained packages means you're ready for anything. Let <a class="underline" href="/docs/octane">Laravel Octane</a> supercharge your application's performance, and experience infinite scale on <a class="underline" href="https://vapor.laravel.com">Laravel Vapor</a>, our serverless deployment platform powered by AWS Lambda.</p>
+            <h2 class="text-4xl font-bold md:text-5xl">Корпоративный масштаб без корпоративной сложности.</h2>
+            <p class="mt-6 text-gray-700 leading-relaxed">Наша обширная библиотека тщательно поддерживаемых пакетов означает, что вы готовы ко всему. Позвольте <a class="underline" href="/docs/octane">Laravel Octane</a> повысить производительность вашего приложения и ощутите бесконечное масштабирование на <a class="underline" href="https://vapor.laravel.com">Laravel Vapor</a>, нашей бессерверной платформе развертывания на базе AWS Lambda.</p>
         </div>
         <ul class="mt-10 relative grid gap-6 md:grid-cols-2">
             <li>
@@ -166,7 +166,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Forge</div>
-                        <div class="mt-1 text-sm text-gray-700">Server management doesn't have to be a nightmare. Provision and deploy unlimited PHP applications on DigitalOcean, Linode, Vultr, Amazon, Hetzner and more.</div>
+                        <div class="mt-1 text-sm text-gray-700">Управление сервером не должно быть кошмаром. Предоставление и развертывание неограниченного количества приложений PHP на DigitalOcean, Linode, Vultr, Amazon, Hetzner и других платформах.</div>
                     </div>
                 </a>
             </li>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Vapor</div>
-                        <div class="mt-1 text-sm text-gray-700">Laravel Vapor is a serverless deployment platform for Laravel, powered by AWS. Launch your Laravel infrastructure on Vapor and fall in love with the scalable simplicity of serverless.</div>
+                        <div class="mt-1 text-sm text-gray-700">Laravel Vapor — это бессерверная платформа для развертывания Laravel на платформе AWS. Запустите свою инфраструктуру Laravel на Vapor и оцените масштабируемую простоту бессерверных решений.</div>
                     </div>
                 </a>
             </li>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Breeze</div>
-                        <div class="mt-1 text-sm text-gray-700">Lightweight starter kit scaffolding for new applications with Blade or Inertia.</div>
+                        <div class="mt-1 text-sm text-gray-700">Легковесная основа для стартового комплекта для новых приложений с Blade или Inertia.</div>
                     </div>
                 </a>
             </li>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Cashier</div>
-                        <div class="mt-1 text-sm text-gray-700">Take the pain out of managing subscriptions on Stripe or Paddle.</div>
+                        <div class="mt-1 text-sm text-gray-700">Избавьтесь от необходимости управлять подписками на Stripe или Paddle.</div>
                     </div>
                 </a>
             </li>
@@ -217,7 +217,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Dusk</div>
-                        <div class="mt-1 text-sm text-gray-700">Automated browser testing to ship your application with confidence.</div>
+                        <div class="mt-1 text-sm text-gray-700">Автоматическое тестирование браузера для уверенной отправки вашего приложения.</div>
                     </div>
                 </a>
             </li>
@@ -229,7 +229,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Echo</div>
-                        <div class="mt-1 text-sm text-gray-700">Listen for WebSocket events broadcast by your Laravel application.</div>
+                        <div class="mt-1 text-sm text-gray-700">Слушайте события WebSocket, транслируемые вашим приложением Laravel.</div>
                     </div>
                 </a>
             </li>
@@ -241,7 +241,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Envoyer</div>
-                        <div class="mt-1 text-sm text-gray-700">Deploy your Laravel applications to customers with zero downtime.</div>
+                        <div class="mt-1 text-sm text-gray-700">Развертывайте свои приложения Laravel клиентам без простоев.</div>
                     </div>
                 </a>
             </li>
@@ -253,7 +253,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Horizon</div>
-                        <div class="mt-1 text-sm text-gray-700">Beautiful UI for monitoring your Redis driven Laravel queues.</div>
+                        <div class="mt-1 text-sm text-gray-700">Красивый пользовательский интерфейс для мониторинга очередей Laravel, управляемых Redis.</div>
                     </div>
                 </a>
             </li>
@@ -265,7 +265,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Jetstream</div>
-                        <div class="mt-1 text-sm text-gray-700">Robust starter kit including authentication and team management.</div>
+                        <div class="mt-1 text-sm text-gray-700">Надежный стартовый комплект, включающий аутентификацию и управление командой.</div>
                     </div>
                 </a>
             </li>
@@ -277,7 +277,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Mix</div>
-                        <div class="mt-1 text-sm text-gray-700">Compile your JavaScript and CSS using Webpack with zero configuration.</div>
+                        <div class="mt-1 text-sm text-gray-700">Скомпилируйте свой JavaScript и CSS с помощью Webpack без настройки.</div>
                     </div>
                 </a>
             </li>
@@ -289,7 +289,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Nova</div>
-                        <div class="mt-1 text-sm text-gray-700">Thoughtfully designed administration panel for your Laravel applications.</div>
+                        <div class="mt-1 text-sm text-gray-700">Продуманно разработанная панель администрирования для ваших приложений Laravel.</div>
                     </div>
                 </a>
             </li>
@@ -301,7 +301,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Octane</div>
-                        <div class="mt-1 text-sm text-gray-700">Supercharge your application's performance by keeping it in memory.</div>
+                        <div class="mt-1 text-sm text-gray-700">Повышайте производительность вашего приложения, сохраняя его в памяти.</div>
                     </div>
                 </a>
             </li>
@@ -313,7 +313,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Sail</div>
-                        <div class="mt-1 text-sm text-gray-700">Hand-crafted Laravel local development experience using Docker.</div>
+                        <div class="mt-1 text-sm text-gray-700">Опыт локальной разработки Laravel вручную с использованием Docker.</div>
                     </div>
                 </a>
             </li>
@@ -325,7 +325,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Sanctum</div>
-                        <div class="mt-1 text-sm text-gray-700">API and mobile application authentication without wanting to pull your hair out.</div>
+                        <div class="mt-1 text-sm text-gray-700">Аутентификация API и мобильного приложения без желания рвать на себе волосы.</div>
                     </div>
                 </a>
             </li>
@@ -337,7 +337,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Scout</div>
-                        <div class="mt-1 text-sm text-gray-700">Lightning fast full-text search for your application's Eloquent models.</div>
+                        <div class="mt-1 text-sm text-gray-700">Молниеносный полнотекстовый поиск моделей Eloquent вашего приложения.</div>
                     </div>
                 </a>
             </li>
@@ -349,7 +349,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Socialite</div>
-                        <div class="mt-1 text-sm text-gray-700">Social authentication via Facebook, Twitter, GitHub, LinkedIn, and more.</div>
+                        <div class="mt-1 text-sm text-gray-700">Социальная аутентификация через Facebook, Twitter, GitHub, LinkedIn и т. д.</div>
                     </div>
                 </a>
             </li>
@@ -361,7 +361,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Spark</div>
-                        <div class="mt-1 text-sm text-gray-700">Launch your next business with our fully-featured, drop-in billing portal.</div>
+                        <div class="mt-1 text-sm text-gray-700">Начните свой следующий бизнес с помощью нашего полнофункционального платежного портала.</div>
                     </div>
                 </a>
             </li>
@@ -373,7 +373,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Telescope</div>
-                        <div class="mt-1 text-sm text-gray-700">Debug your application using our debugging and insight UI.</div>
+                        <div class="mt-1 text-sm text-gray-700">Отлаживайте свое приложение с помощью нашего пользовательского интерфейса для отладки и анализа.</div>
                     </div>
                 </a>
             </li>
@@ -385,7 +385,7 @@
                     </div>
                     <div class="ml-4 leading-5">
                         <div>Valet</div>
-                        <div class="mt-1 text-sm text-gray-700">The fastest Laravel local development experience - exclusively for macOS.</div>
+                        <div class="mt-1 text-sm text-gray-700">Самая быстрая локальная разработка Laravel — исключительно для macOS.</div>
                     </div>
                 </a>
             </li>
@@ -403,60 +403,60 @@
             <x-cube delay="1500" />
         </div>
         <h2 class="text-4xl font-bold max-w-4xl mx-auto text-center md:text-5xl">
-            Loved by thousands of developers around the world.
+            Его любят тысячи разработчиков по всему миру.
         </h2>
         <div class="mt-14 relative columns-1 gap-5 space-y-5 sm:columns-2 lg:columns-3">
             <x-testimonial
                 name="Adam Wathan"
-                content="I’ve been using Laravel for nearly a decade and never been tempted to switch to anything else."
+                content="Я использую Laravel уже почти десять лет, и у меня никогда не было соблазна переключиться на что-то другое."
             >
                 <x-slot name="title">
-                    Creator of <a href="https://tailwindcss.com/" target="_blank" class="text-red-500">Tailwind CSS</a>
+                    Создатель <a href="https://tailwindcss.com/" target="_blank" class="text-red-500">Tailwind CSS</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Aaron Francis"
-                content="Laravel takes the pain out of building modern, scalable web apps."
+                content="Laravel упрощает создание современных масштабируемых веб-приложений."
             >
                 <x-slot name="title">
-                    Creator of <a href="https://torchlight.dev" target="_blank" class="text-red-500">Torchlight</a> and <a href="https://github.com/hammerstonedev/sidecar" target="_blank" class="text-red-500">Sidecar</a>
+                    Создатель <a href="https://torchlight.dev" target="_blank" class="text-red-500">Torchlight</a> и <a href="https://github.com/hammerstonedev/sidecar" target="_blank" class="text-red-500">Sidecar</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Bobby Bouwmann"
-                content="Laravel grew out to be an amazing innovative and active community. Laravel is so much more than just a PHP framework."
+                content="Laravel превратился в удивительное инновационное и активное сообщество. Laravel — это гораздо больше, чем просто PHP-фреймворк."
             >
                 <x-slot name="title">
-                    Elite Developer at <a href="https://enrise.com/" target="_blank" class="text-red-500">Enrise</a>
+                    Элитный разработчик в <a href="https://enrise.com/" target="_blank" class="text-red-500">Enrise</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Erika Heidi"
-                content="As an old school PHP developer, I have tried many frameworks; none has given me the development speed and enjoyment of use that I found with Laravel. It is a breath of fresh air in the PHP ecosystem, with a brilliant community around it."
+                content="Как PHP-разработчик старой школы, я пробовал множество фреймворков; ни один из них не дал мне такой скорости разработки и удовольствия от использования, как Laravel. Это глоток свежего воздуха в экосистеме PHP с блестящим сообществом вокруг него."
             >
                 <x-slot name="title">
-                    Creator of <a href="https://github.com/minicli/minicli" target="_blank" class="text-red-500">Minicli</a>
+                    Создатель <a href="https://github.com/minicli/minicli" target="_blank" class="text-red-500">Minicli</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Caleb Porzio"
-                content="Laravel is nothing short of a delight. It allows me to build any web-y thing I want in record speed with joy."
+                content="Laravel — не что иное, как восторг. Это позволяет мне с радостью создавать любые веб-приложения с рекордной скоростью."
             >
                 <x-slot name="title">
-                    Creator of <a href="https://laravel-livewire.com" target="_blank" class="text-red-500">Livewire</a> and <a href="https://alpinejs.dev" target="_blank" class="text-red-500">Alpine.js</a>
+                    Создатель <a href="https://laravel-livewire.com" target="_blank" class="text-red-500">Livewire</a> и <a href="https://alpinejs.dev" target="_blank" class="text-red-500">Alpine.js</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Jess Archer"
-                content="Laravel and its community inspire me to be a better developer and allow me to focus on the unique parts of my apps."
+                content="Laravel и его сообщество вдохновляют меня стать лучшим разработчиком и позволяют мне сосредоточиться на уникальных частях моих приложений."
             >
                 <x-slot name="title">
-                    Full-Stack Developer
+                    Фулл-Стек разработчик
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Michael Dyrynda"
-                content="Laravel’s best-in-class testing tools give me the peace of mind to ship robust apps quickly."
+                content="Лучшие в своем классе инструменты тестирования Laravel дают мне уверенность в быстрой доставке надежных приложений."
             >
                 <x-slot name="title">
                     Laravel Artisan + Laracon AU Organizer
@@ -464,55 +464,55 @@
             </x-testimonial>
             <x-testimonial
                 name="Chris Arter"
-                content="Laravel has been like rocket fuel for my career and business."
+                content="Laravel был как ракетное топливо для моей карьеры и бизнеса."
             >
                 <x-slot name="title">
-                    Developer at <a href="https://www.bankrate.com" target="_blank" class="text-red-500">Bankrate</a>
+                    Разработчик в <a href="https://www.bankrate.com" target="_blank" class="text-red-500">Bankrate</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Eric L. Barnes"
-                content="I've been using Laravel for over 10 years and I can't imagine using PHP without it."
+                content="Я использую Laravel более 10 лет и не могу представить себе использование PHP без него."
             >
                 <x-slot name="title">
-                    Founder of <a href="https://laravel-news.com/" target="_blank" class="text-red-500">Laravel News</a>
+                    Основатель <a href="https://laravel-news.com/" target="_blank" class="text-red-500">Laravel News</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Freek Van der Herten"
-                content="I've been enjoying Laravel's focus on pushing developer experience to the next level for many years. All pieces of the ecosystem are powerful, well designed, fun to work with, and have stellar documentation. The surrounding friendly and helpful community is a joy to be a part of."
+                content="Мне нравится то, что Laravel уделяет особое внимание повышению опыта разработчиков на новый уровень в течение многих лет. Все части экосистемы мощные, хорошо спроектированные, с ними интересно работать, и у них отличная документация. Окружающее дружелюбное и полезное сообщество - это радость быть частью."
             >
                 <x-slot name="title">
-                    Owner of <a href="https://spatie.be" target="_blank" class="text-red-500">Spatie</a>
+                    Владелец <a href="https://spatie.be" target="_blank" class="text-red-500">Spatie</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Jason Beggs"
-                content="Laravel and its ecosystem of tools help me build client projects faster, more secure, and higher quality than any other tools out there."
+                content="Laravel и его экосистема инструментов помогают мне создавать клиентские проекты быстрее, безопаснее и качественнее, чем любые другие инструменты."
             >
                 <x-slot name="title">
-                    Owner of <a href="https://roasted.dev" target="_blank" class="text-red-500">roasted.dev</a>
+                    Владелец <a href="https://roasted.dev" target="_blank" class="text-red-500">roasted.dev</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Joseph Silber"
-                content="I didn't fully appreciate Laravel's one-stop-shop, all-encompassing solution, until I tried (many) different ecosystems. Laravel is in a class of its own!"
+                content="Я не в полной мере оценил универсальное, всеобъемлющее решение Laravel, пока не попробовал (многие) разные экосистемы. Laravel находится в своем собственном классе!"
             >
                 <x-slot name="title">
-                    Creator of <a href="https://github.com/JosephSilber/bouncer" target="_blank" class="text-red-500">Bouncer</a>
+                    Создатель <a href="https://github.com/JosephSilber/bouncer" target="_blank" class="text-red-500">Bouncer</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Steve McDougall"
-                content="Laravel has helped me launch products quicker than any other solution, allowing me to get to market faster and faster as the community has evolved."
+                content="Laravel помог мне запускать продукты быстрее, чем любое другое решение, позволяя мне быстрее и быстрее выходить на рынок по мере развития сообщества."
             >
                 <x-slot name="title">
-                    Creator of <a href="https://github.com/JustSteveKing/laravel-transporter" target="_blank" class="text-red-500">Laravel Transporter</a>
+                    Создатель <a href="https://github.com/JustSteveKing/laravel-transporter" target="_blank" class="text-red-500">Laravel Transporter</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Philo Hermans"
-                content="I've been using Laravel for every project over the past ten years in a time where a new framework launches every day. To this date, there's just nothing like it."
+                content="Я использую Laravel для каждого проекта за последние десять лет в то время, когда каждый день запускается новый фреймворк. На сегодняшний день ничего подобного нет."
             >
                 <x-slot name="title">
                     Laravel Developer
@@ -520,26 +520,26 @@
             </x-testimonial>
             <x-testimonial
                 name="Luke Downing"
-                content="Laravel is for developers who write code because they can rather than because they have to."
+                content="Laravel предназначен для разработчиков, которые пишут код, потому что могут, а не потому, что должны."
             >
                 <x-slot name="title">
-                    Maker + Developer
+                    Творец + Разработчик
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Tony Lea"
-                content="Laravel makes building web apps exciting! It has also helped me to become a better developer 🤙"
+                content="Laravel делает создание веб-приложений захватывающим! Это также помогло мне стать лучшим разработчиком 🤙"
             >
                 <x-slot name="title">
-                    Founder of <a href="https://devdojo.com" class="text-red-500" target="_blank">DevDojo</a>
+                    Основатель <a href="https://devdojo.com" class="text-red-500" target="_blank">DevDojo</a>
                 </x-slot>
             </x-testimonial>
             <x-testimonial
                 name="Jack Ellis"
-                content="The Laravel ecosystem has been integral to the success of our business. The framework allows us to move fast and ship regularly, and Laravel Vapor has allowed us to operate at an incredible scale with ease."
+                content="Экосистема Laravel стала неотъемлемой частью успеха нашего бизнеса. Фреймворк позволяет нам двигаться быстро и регулярно выпускать продукты, а Laravel Vapor позволяет нам с легкостью работать в невероятном масштабе."
             >
                 <x-slot name="title">
-                    Co-founder of <a href="https://usefathom.com" class="text-red-500" target="_blank">Fathom Analytics</a>
+                    Сооснователь <a href="https://usefathom.com" class="text-red-500" target="_blank">Fathom Analytics</a>
                 </x-slot>
             </x-testimonial>
         </div>
@@ -550,28 +550,28 @@
         <div class="relative max-w-screen-xl mx-auto grid gap-12 px-5 pt-16 md:pt-24 pb-24 lg:grid-cols-2 lg:pt-16">
             <div class="flex items-center justify-center lg:justify-start">
                 <div class="sm:max-w-xl">
-                    <h2 class="text-4xl font-bold md:text-5xl">A community built for people like you.</h2>
-                    <p class="mt-6 text-gray-700 leading-relaxed">Laravel is for everyone — whether you have been programming for 20 years or 20 minutes. It's for architecture astronauts and weekend hackers. For those with degrees and for those who dropped out to chase their dreams. Together, we create amazing things.</p>
+                    <h2 class="text-4xl font-bold md:text-5xl">Сообщество, созданное для таких, как вы.</h2>
+                    <p class="mt-6 text-gray-700 leading-relaxed">Laravel подходит для всех — независимо от того, программируете вы 20 лет или 20 минут. Это для космонавтов архитектуры и хакеров выходного дня. Для тех, у кого есть ученые степени, и для тех, кто бросил учебу, чтобы преследовать свои мечты. Вместе мы создаем удивительные вещи.</p>
                     <div class="mt-10 grid grid-cols-2 gap-10 md:grid-cols-3">
                         <a href="https://blog.laravel.com" target="_blank" class="inline-flex items-center">
                             <svg class="text-red-600 w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="currentColor" d="M.5.5h31v31H.5z"/><path d="M10 9c7.18 0 13 5.82 13 13m-13-7a7 7 0 0 1 7 7m-6 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span class="ml-3 text-sm">Blog</span>
+                            <span class="ml-3 text-sm">Блог</span>
                         </a>
                         <a href="https://laracasts.com/discuss" target="_blank" class="inline-flex items-center">
                             <svg class="text-red-600 w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="currentColor" d="M.5.5h31v31H.5z"/><path d="M11 12h10-10Zm0 4h4-4Zm5 8-4-4H9a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3l-4 4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span class="ml-3 text-sm">Forums</span>
+                            <span class="ml-3 text-sm">Форум</span>
                         </a>
                         <a href="https://larajobs.com" target="_blank" class="inline-flex items-center">
                             <svg class="text-red-600 w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="currentColor" d="M.5.5h31v31H.5z"/><path d="M25 17.255A23.93 23.93 0 0 1 16 19c-3.183 0-6.22-.62-9-1.745M16 16h.01M20 10V8a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2h8ZM9 24h14a2 2 0 0 0 2-2V12a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span class="ml-3 text-sm">Jobs</span>
+                            <span class="ml-3 text-sm">Работа</span>
                         </a>
                         <a href="https://laravel-news.com" target="_blank" class="inline-flex items-center">
                             <svg class="text-red-600 w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="currentColor" d="M.5.5h31v31H.5z"/><path d="M23 24H9a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V11m2 13a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-2m-4-3h-4m-2 12h6m-6-8h6v4h-6v-4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span class="ml-3 text-sm">Laravel News</span>
+                            <span class="ml-3 text-sm">Новости Laravel</span>
                         </a>
                         <a href="https://laracasts.com" target="_blank" class="inline-flex items-center">
                             <svg class="text-red-600 w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="currentColor" d="M.5.5h31v31H.5z"/><path d="m18.752 15.168-3.197-2.132A1 1 0 0 0 14 13.87v4.263a1 1 0 0 0 1.555.832l3.197-2.132a.998.998 0 0 0 0-1.664v-.001Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path d="M25 16a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span class="ml-3 text-sm">Laracasts</span>
+                            <span class="ml-3 text-sm">Ларакасты</span>
                         </a>
                     </div>
                 </div>
@@ -579,10 +579,10 @@
             <div class="flex justify-center lg:justify-end">
                 <div class="max-w-sm w-full pt-8 pb-12 px-6 border border-gray-200 -rotate-1 lg:px-12 lg:border-red-600">
                     <img src="/images/laracon.png" class="max-w-[218px] w-full mx-auto" />
-                    <h3 class="mt-8 font-bold text-red-700 uppercase text-xs">Watch us on YouTube</h3>
-                    <h2 class="mt-3 font-bold text-4xl">Tune In</h2>
-                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">The official Laravel YouTube channel includes free videos and tutorials covering the entire Laravel ecosystem. Stay up to date by watching our latest videos.</p>
-                    <x-button.secondary class="mt-8" href="https://youtube.com/laravelphp">Start Watching</x-button.secondary>
+                    <h3 class="mt-8 font-bold text-red-700 uppercase text-xs">Смотрите нас на YouTube</h3>
+                    <h2 class="mt-3 font-bold text-4xl">Настроиться</h2>
+                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Официальный канал Laravel на YouTube содержит бесплатные видеоролики и учебные пособия, охватывающие всю экосистему Laravel. Будьте в курсе, просматривая наши последние видео.</p>
+                    <x-button.secondary class="mt-8" href="https://youtube.com/laravelphp">Начать просмотр</x-button.secondary>
                 </div>
             </div>
         </div>
@@ -601,9 +601,9 @@
             </div>
             <div class="relative flex justify-center lg:justify-end">
                 <div class="sm:max-w-md">
-                    <h2 class="mt-8 font-bold text-4xl">Hire a partner for your next project</h2>
-                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Laravel Partners are elite shops providing top-notch Laravel development and consulting. Each of our partners can help you craft a beautiful, well-architected project.</p>
-                    <x-button.secondary class="mt-8" href="https://partners.laravel.com">Browse Partners</x-button.secondary>
+                    <h2 class="mt-8 font-bold text-4xl">Наймите партнера для вашего следующего проекта</h2>
+                    <p class="mt-4 text-gray-700 text-sm leading-relaxed">Партнеры Laravel — это элитные магазины, предлагающие первоклассные разработки и консультации Laravel. Каждый из наших партнеров может помочь вам создать красивый, продуманный до мелочей проект.</p>
+                    <x-button.secondary class="mt-8" href="https://partners.laravel.com">Обзор партнеров</x-button.secondary>
                 </div>
             </div>
         </div>
